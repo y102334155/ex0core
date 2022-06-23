@@ -5,8 +5,6 @@ url: https://exocore.remilia.org
 baseurl: ''
 destination: _site
 repository: remiliacorp/exocore
-
-
 background: "red"
 
 highlighter: rouge
