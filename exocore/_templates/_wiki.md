@@ -7,6 +7,6 @@ tags:
 
 # 
 
-<% tp.user.randomhex.("Hello World!") %>
+<% tp.user.randomhex() %>
 
 

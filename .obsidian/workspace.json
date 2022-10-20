@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c97d805a092fd96f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_articles/Writing with Exocore Syntax.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b21f801df6828923",
+            "id": "13ae7ec9904f70be",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,17 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b21f801df6828923",
+  "active": "13ae7ec9904f70be",
   "lastOpenFiles": [
+    "exocore/_templates/Untitled.md",
+    "exocore/_templates/_wiki.md",
+    "_articles/Writing with Exocore Syntax.md",
     "exocore/_templates/_journal.md",
     "exocore/_templates/_scrapbook.md",
-    "exocore/_templates/_wiki.md",
-    "exocore/_templates/Untitled.md",
     "_articles/Configure Exocore for Personal Use.md",
     "exocore/_templates/_article.md",
     "exocore/_templates/_daily.md",
     "_wiki/L-Dopa.md",
-    "_wiki/Untitled.md",
-    "_articles/Writing with Exocore Syntax.md"
+    "_wiki/Untitled.md"
   ]
 }
