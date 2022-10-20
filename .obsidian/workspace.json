@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_wiki/L-Dopa.md",
+                "file": "exocore/_templates/_wiki.md",
                 "mode": "source",
                 "source": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_wiki/L-Dopa.md",
+                "file": "exocore/_templates/_wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_wiki/L-Dopa.md",
+                "file": "exocore/_templates/_wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_wiki/L-Dopa.md"
+                "file": "exocore/_templates/_wiki.md"
               }
             }
           }
@@ -167,15 +167,15 @@
   },
   "active": "b50bae25882a8c24",
   "lastOpenFiles": [
-    "_articles/Writing with Exocore Syntax.md",
+    "exocore/_templates/_article.md",
+    "exocore/_templates/_daily.md",
+    "exocore/_templates/_scrapbook.md",
+    "exocore/_templates/_journal.md",
+    "exocore/_templates/_wiki.md",
     "_wiki/L-Dopa.md",
+    "_wiki/Untitled.md",
+    "_articles/Writing with Exocore Syntax.md",
     "_articles/Configure Exocore for Personal Use.md",
-    "_scrapbook/Predictive Processing and the Free Energy Principle.md",
-    "_daily/2022-05-11.md",
-    "_daily/2022-10-20.md",
-    "readme.md",
-    "index.md",
-    "_journal/Exocore Feedback.md",
-    "_journal/Grip Training.md"
+    "_scrapbook/Predictive Processing and the Free Energy Principle.md"
   ]
 }
