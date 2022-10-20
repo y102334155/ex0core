@@ -3,11 +3,9 @@ layout: home
 title: Home
 ---
 
-
-
 # The Exocore Package
 
-![](/images/exocore.png)
+[![](/images/exocore.png)](/articles/exocore%20installation%20instructions/)
 
 ## Executive Summary
 
@@ -15,8 +13,8 @@ The exocore is a preconfigured package to roll out your own no-code, no-cost per
 
 The exocore is developed by [Remilia Corporation](https://remilia.org) as a [Jamstack](https://jamstack.org/) worfklow and extension of [Foam](https://github.com/foambubble/foam) to complete the system of an accessible and standardized autopublishing knowledgebase network, as a proof-of-concept for [Remilia's New Internet](https://mirror.xyz/charlemagnefang.eth/831rVsd2Z7cjxnBAw118gW8MylKibfC2AeJ6YUHiAvA).
 
-## How to Begin
-Follow the 15 minutes [[installation-instructions|no code instructions]] to install your exocore and set up automatic publishing with Netlify.
+## Installation Instructions
+Follow the [[Exocore Installation Instructions|no code instructions]] to install your exocore and set up automatic publishing with Netlify. Time required: ~30 minutes.
 
 ## Detailed Introduction
 
@@ -67,7 +65,7 @@ This system provides a powerful and highly customizable dashboard for comprehens
 
 A user download the package in the form of a Github repository template, which lives on their local machine as a directory that can be manually or automatically synced via [git](https://git-scm.com) to a web domain, which represents the documents in the directory after they are processed into an eaily-navigable and feature-rich website. Their exocore can be published to the web at no-cost using Netlify's free hosting and subdomain service.
 
-A user can get by just fine only interacting with simple plaintext [markdown](https://www.markdownguide.org) files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore's syntax [[syntax|here]]). They are also able to control how their generated website handles their documents in a human-readable [[using-exocore#Using Metadata|metadata section]] at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.
+A user can get by just fine only interacting with simple plaintext [markdown](https://www.markdownguide.org) files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore's syntax [[Writing with Exocore Syntax|here]]). They are also able to control how their generated website handles their documents in a human-readable [[Using your Exocore#Using Metadata|metadata section]] at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.
 
 ![](/images/girl-online.png){:.right-aside}
 
@@ -77,7 +75,7 @@ The recommended extensions for your workspace arrives as a package of two things
 
 1. A template directory including templates for simple creation of new markdown documents of different kinds (article, journal entry, wiki note, daily note), each treated differently in the rendering of your website.
 
-2. A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with [Netlify](https://www.netlify.com), for which a setup guide is available [[installation-instructions#1. Deploy your own Exocore to the Web|here]].
+2. A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with [Netlify](https://www.netlify.com), for which a setup guide is available [[Exocore Installation Instructions#1. Deploy your own Exocore to the Web|here]].
 
 ### Jekyll
 
@@ -88,9 +86,9 @@ To view your site before it is pushed online, a user can also set up their Exoco
 The stack is an open-source repo and a suite of open-source programs and plugins, and is therefore ultimately customizable. The level of customizability depends only on your technical know-how, but minimal learnings yield compounding rewards. Here is an idea of the level of control over your final website yielded by advancing levels of technical knowledge:
 
 - **No technical knowledge:**
-  - You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. In other words, all features are fully available with no technical knowledge. You should become acquainted with the Exocore's [[syntax]], but this is easy enough to guess at, or to learn in under half an hour. 
+  - You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. In other words, all features are fully available with no technical knowledge. You should become acquainted with the Exocore's [[Writing with Exocore Syntax]], but this is easy enough to guess at, or to learn in under half an hour. 
 
-    For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore [[installation-instructions#Create Github Account|documentation]] includes a guide on how to publish your site.
+    For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore [[Exocore Installation Instructions#Create Github Account|documentation]] includes a guide on how to publish your site.
   
 - **HTML and CSS**
   - You will be able to edit included stylesheets and HTML templates to create a site which looks any way that you wish. Both these languages are simple to learn, and even without learning them comprehensively a user can edit the provided templates and stylesheets to make major changes.  
@@ -104,9 +102,17 @@ The stack is an open-source repo and a suite of open-source programs and plugins
 
 ## Full Tech Stack
 
-- [VS Code](https://code.visualstudio.com) (and plugin package)
-- [Git](https://git-scm.com) (for publishing)
-- [Jekyll](https://jekyllrb.com) (optional)
+- [Obsidian](https://obsidian.md) / [VS Code](https://code.visualstudio.com) (and plugin package)
+- [Git](https://git-scm.com) (for syncing)
+- [Jekyll](https://jekyllrb.com) (for publishing)
+
+**Obsidian Plugins:**
+- Backlinks
+- Daily Notes
+- Templates
+- [Obsidian Git](https://github.com/denolehov/obsidian-git)
+- [Templater](https://github.com/SilentVoid13/Templater)
+- [Filename Heading Sync](https://github.com/dvcrn/obsidian-filename-heading-sync)
 
 **VSCode Plugins:**
 - [Foam](https://marketplace.visualstudio.com/items?itemName=foam.foam-vscode)
@@ -118,10 +124,10 @@ The stack is an open-source repo and a suite of open-source programs and plugins
 
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
-[installation-instructions|no code instructions]: _articles/installation-instructions "Exocore Installation Instructions"
-[syntax|here]: _articles/syntax "Writing with Exocore Syntax"
-[using-exocore#Using Metadata|metadata section]: _articles/using-exocore "Using your Exocore"
-[installation-instructions#1. Deploy your own Exocore to the Web|here]: _articles/installation-instructions "Exocore Installation Instructions"
-[syntax]: _articles/syntax "Writing with Exocore Syntax"
-[installation-instructions#Create Github Account|documentation]: _articles/installation-instructions "Exocore Installation Instructions"
+[Exocore Installation Instructions|no code instructions]: <_articles/Exocore Installation Instructions> "Exocore Installation Instructions"
+[Writing with Exocore Syntax|here]: <_articles/Writing with Exocore Syntax> "Writing with Exocore Syntax"
+[Using your Exocore#Using Metadata|metadata section]: <_articles/Using your Exocore> "Using your Exocore"
+[Exocore Installation Instructions#1. Deploy your own Exocore to the Web|here]: <_articles/Exocore Installation Instructions> "Exocore Installation Instructions"
+[Writing with Exocore Syntax]: <_articles/Writing with Exocore Syntax> "Writing with Exocore Syntax"
+[Exocore Installation Instructions#Create Github Account|documentation]: <_articles/Exocore Installation Instructions> "Exocore Installation Instructions"
 [//end]: # "Autogenerated link references"

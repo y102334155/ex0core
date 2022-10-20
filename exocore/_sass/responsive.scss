@@ -1,5 +1,9 @@
   // -=-=-=- RESPONSIVE CSS -=-=-=- \\
 
+body {
+    overflow-wrap:break-word;
+}
+
  @media (max-width: 1350px) {
      .sidenote, {
          display: none;
@@ -32,6 +36,9 @@
     }
     .sidebar-card {
         padding: 0.5em;
+    }
+    .related, .tags {
+        display: none;
     }
     .toc-container {
         margin: auto;
