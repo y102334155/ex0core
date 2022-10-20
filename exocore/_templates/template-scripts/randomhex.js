@@ -4,4 +4,5 @@ function my_function (msg) {
     for(let i = 0; i < 40; i++){
         str += characters[Math.floor(Math.random() * 16)]
 }
-module.exports = my_function;
+    
+module.exports = str;
