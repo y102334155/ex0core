@@ -13,13 +13,3 @@ It is therefore unsurprising that dopamine also lowers skepticism. If logical se
 
 **Summary:** Pattern detection is conducive to memorization, but not necessarily to clear thinking; in many instances apprehension of a pattern is a reduction of phenomena too complex to be faithfully reduced. Heightened dopamine can bolster addictive compulsions and increase credulousness, as patterns are more readily detected and chaotic sequences of action appear to make more sense. Pattern-detection is enhanced by dopamine production, and tendencies to compulsive action can result. 
 
-
-## Testing note embedding for bug fix
-
-
-
-[[chinese-ginseng-chicken-tonic-soup|an alias]]
-
-![[chinese-ginseng-chicken-tonic-soup]]
-
-
