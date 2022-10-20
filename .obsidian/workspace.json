@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_articles/Writing with Exocore Syntax.md",
+                "file": "_wiki/L-Dopa.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_articles/Writing with Exocore Syntax.md",
+                "file": "_wiki/L-Dopa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_articles/Writing with Exocore Syntax.md"
+                "file": "_wiki/L-Dopa.md"
               }
             }
           }
@@ -164,11 +165,11 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "c97d805a092fd96f",
+  "active": "b50bae25882a8c24",
   "lastOpenFiles": [
-    "_articles/Configure Exocore for Personal Use.md",
-    "_wiki/L-Dopa.md",
     "_articles/Writing with Exocore Syntax.md",
+    "_wiki/L-Dopa.md",
+    "_articles/Configure Exocore for Personal Use.md",
     "_scrapbook/Predictive Processing and the Free Energy Principle.md",
     "_daily/2022-05-11.md",
     "_daily/2022-10-20.md",
