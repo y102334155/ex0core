@@ -16,10 +16,13 @@ Navigate to `/exocore/data/user.yml`. Open the file in any text-editor (e.g. Not
 In the same `/exocore/data/user.yml` file, you will also see `welcome_header` and `welcome_subtitle`. These control the title and subtitle that appear on your homepage.
 
 On the root folder you will find `index.md`, this can be edited like any other article as your homepage with the addition of the title and header from the `user.yml` file. Make sure you keep the following frontmatter at the top of the markdown file: 
-```---
+
+```
+---
 layout: home
 title: home
----```
+---
+```
 
 ## Change your Profile Picture
 
@@ -46,3 +49,13 @@ This will password protect the homepage with `P@SSWORD` as the password -- you c
 ---
 
 Move on to [[Using your Exocore]] for further guidance.
+
+## Testing note embedding for bug fix
+
+**No normal wikilink**
+
+(there's nothing here)
+
+**Embedded wikilink**
+
+![[Configure Exocore for Personal Use]]

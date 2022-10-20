@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "5ba33e55d246a4b3",
+        "id": "a866312d8fbc431d",
         "type": "tabs",
         "children": [
           {
-            "id": "7c45b8dc98202578",
+            "id": "c97d805a092fd96f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2022-10-20.md",
+                "file": "_articles/Writing with Exocore Syntax.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b21f801df6828923",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_articles/Configure Exocore for Personal Use.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b50bae25882a8c24",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_wiki/L-Dopa.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2022-10-20.md",
+                "file": "_articles/Configure Exocore for Personal Use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2022-10-20.md",
+                "file": "_articles/Configure Exocore for Personal Use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2022-10-20.md"
+                "file": "_articles/Configure Exocore for Personal Use.md"
               }
             }
           }
@@ -139,17 +164,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7c45b8dc98202578",
+  "active": "b21f801df6828923",
   "lastOpenFiles": [
+    "_wiki/L-Dopa.md",
+    "_articles/Configure Exocore for Personal Use.md",
+    "_articles/Writing with Exocore Syntax.md",
+    "_scrapbook/Predictive Processing and the Free Energy Principle.md",
+    "_daily/2022-05-11.md",
+    "_daily/2022-10-20.md",
     "readme.md",
     "index.md",
     "_journal/Exocore Feedback.md",
-    "_journal/Grip Training.md",
-    "_journal/Kariyushi Wear.md",
-    "_wiki/Female Body Training Routine.md",
-    "_articles/Metabolic Switch 3 Week Diet.md",
-    "_journal/YAYO Radio.md",
-    "_journal/Wrist Pain Exercises.md",
-    "_journal/Why is Sesame Oil the only Traditionally Consumed Seed Oil.md"
+    "_journal/Grip Training.md"
   ]
 }

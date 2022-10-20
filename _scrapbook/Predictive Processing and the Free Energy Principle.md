@@ -36,8 +36,6 @@ tags: psychology AI computers research learning
 - If a prototypical agent, or a 'good agent' minimises free energy (thereby minimising 'surprise'), they must believe that the actions they take minimised expected free energy
 - expected free energy associated with a policy of action is minimised
 
-
-
 ## Markov Blanket:
 The Markov Blanket is a concept in machine learning which is essentially a shield that separates one set of variables from others in a layered, hierarchical system. The blanket defines the boundaries of a given system. That is, in cognition, a cognitive version of a cell membrane shielding states inside the blanket from states outside. This is the schema by which surprise is minimised— the Markov blanket is a set of variables sufficiently complete that another random variable can be inferred from it . If a Markov blanket is minimal (parsimonious) (cannot drop any variable without losing information), it is called a Markov boundary.
 

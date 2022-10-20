@@ -162,6 +162,93 @@
 
 <p><strong>Summary:</strong> Pattern detection is conducive to memorization, but not necessarily to clear thinking; in many instances apprehension of a pattern is a reduction of phenomena too complex to be faithfully reduced. Heightened dopamine can bolster addictive compulsions and increase credulousness, as patterns are more readily detected and chaotic sequences of action appear to make more sense. Pattern-detection is enhanced by dopamine production, and tendencies to compulsive action can result.</p>
 
+<h2 id="testing-note-embedding-for-bug-fix">Testing note embedding for bug fix</h2>
+
+<ol>
+  <li>Embedded wikilink to article with whitespace in filename: Success</li>
+</ol>
+
+<div class="embed-wrapper">
+<div class="embed-title">Configure exocore for personal use</div>
+<div class="embed-content">
+<h1 id="configure-exocore-for-personal-use">Configure Exocore for Personal Use</h1>
+<h2 id="change-your-username-and-homepage">Change your Username and Homepage</h2>
+<p>Navigate to <code class="language-plaintext highlighter-rouge">/exocore/data/user.yml</code>. Open the file in any text-editor (e.g. Notepad or TextEdit) and look for <code class="language-plaintext highlighter-rouge">user_name: Remilia Corporation</code>. Change this to whatever name you want to appear on the left sidebar.</p>
+<h2 id="change-your-homepage-content">Change your Homepage Content</h2>
+<p>In the same <code class="language-plaintext highlighter-rouge">/exocore/data/user.yml</code> file, you will also see <code class="language-plaintext highlighter-rouge">welcome_header</code> and <code class="language-plaintext highlighter-rouge">welcome_subtitle</code>. These control the title and subtitle that appear on your homepage.</p>
+<p>On the root folder you will find <code class="language-plaintext highlighter-rouge">index.md</code>, this can be edited like any other article as your homepage with the addition of the title and header from the <code class="language-plaintext highlighter-rouge">user.yml</code> file. Make sure you keep the following frontmatter at the top of the markdown file:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---layout: hometitle: home---</code></pre></div></div>
+<h2 id="change-your-profile-picture">Change your Profile Picture</h2>
+<p>The profile picture that appears on the left sidebar is located at <code class="language-plaintext highlighter-rouge">assets/img/pfp.png</code>, you can replace this file with any .png. Note that it will be resized into a square.</p>
+<h2 id="change-your-social-media-card-image">Change your Social Media Card Image</h2>
+<p>The social media card that appears when your site is linked on social media sites like Twitter, Facebook, etc. is located at <code class="language-plaintext highlighter-rouge">assets/img/card.png</code>, you can replace this file with any .png. Note that a dimension of 1200x630 is recommended.</p>
+<p>Make sure the site’s url is changed in <code class="language-plaintext highlighter-rouge">/_config.yml</code> in the next step for this image to appear.</p>
+<h2 id="change-your-sites-title-and-url">Change your Site’s Title and URL</h2>
+<p>Navigate to <code class="language-plaintext highlighter-rouge">/_config.yml</code> to change the Title and URL of your exocore. All other settings can be left as is.</p>
+<h2 id="change-the-theme">Change the Theme</h2>
+<p>The Exocore ships with multiple themes to choose from. Navigate to <code class="language-plaintext highlighter-rouge">/styles.scss</code> and look for the line that says <code class="language-plaintext highlighter-rouge">//Uncomment one of the following lines to choose a theme:</code>. To select a theme, remove <code class="language-plaintext highlighter-rouge">//</code> from the line of the theme you want to try, and add <code class="language-plaintext highlighter-rouge">//</code> to the previously active theme (“yotsuba” by default).</p>
+<h2 id="optional-password-protection">Optional: Password Protection</h2>
+<p>You can add simple password protection by going to your Netlify account, entering your site, going to <code class="language-plaintext highlighter-rouge">Settings &gt; Build &amp; Deploy &gt; Build Settings &gt; Edit Settings</code> and changing <code class="language-plaintext highlighter-rouge">Build commannd</code> from the default <code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code> to: <code class="language-plaintext highlighter-rouge">jekyll build &amp;&amp; npx staticrypt _site/index.html P@SSW0RD -o _site/index.html</code></p>
+<p>This will password protect the homepage with <code class="language-plaintext highlighter-rouge">P@SSWORD</code> as the password – you can change this to anything you’d like. Note that this will only protect the homepage, users will be able to directly link to any other page and have access to the whole site.</p>
+<hr>
+<p>Move on to [[Using your Exocore]] for further guidance.</p>
+<h2 id="testing-note-embedding-for-bug-fix">Testing note embedding for bug fix</h2>
+<p><strong>No normal wikilink</strong></p>
+<p>(there’s nothing here)</p>
+<p><strong>Embedded wikilink</strong></p>
+<p>![[Configure Exocore for Personal Use]]</p>
+</div>
+<a class="embed-wiki-link" href="/articles/Configure%20Exocore%20for%20Personal%20Use/"></a>
+</div>
+
+<ol>
+  <li>Embedded wikilink  without whitespace: Success</li>
+</ol>
+
+<div class="embed-wrapper">
+<div class="embed-title">Newinternet</div>
+<div class="embed-content">
+<h1 id="notes-on-remilias-new-internet">Notes on Remilia’s New Internet</h1>
+<p>the vision</p>
+<p>um um u um  uh hhhhhh</p>
+<p>the visionis the new internet</p>
+<p>the visiton is . remco</p>
+<p>the new internet is realtim e(  meguca)  (s0machat )</p>
+<p>the new art is remilia (  milady ) *( bonkler)</p>
+<p>this is what. I beleive in .  when I said Ibelieve in the vision</p>
+<p>spider  im so drunk incoehrent righr t now you will have to forgive m e for mty terseness</p>
+<p>the new internet is digial dovertnty .  exocore.  realtime chat.  OpenBSD</p>
+<p>tiling window manager .terminal  .</p>
+<p>the new internet is network spirituality</p>
+<p>“It is Okay CCCCAA I just Saw this as an Opportunity to get your drunk answer, I’ll ask again when you’re sober.”</p>
+<p>the new internet</p>
+<p>haha</p>
+<p>I understand</p>
+<p>it all made sense  to me</p>
+<p>right now . is like a drea m for me. im rdreaming</p>
+<p>the new internet is a reevaluation of our social interaction with each other  . and a reformation of our dynamic with each other as USERS</p>
+<p>the new internet is whit e hearted ( light hearted)</p>
+<p>you have to think about this ,.</p>
+<p>the real time chat BSD exocore digital sogivern homestead terminal tiling window manger are the aestehtic surface level</p>
+<p>the deeper level is the metaphyiscs of the internet  and how we interpret the virtual world</p>
+<p>the rleationship betwene user interfaces with our mental  spatiotemporal matrix of    virtual reality</p>
+<p>the relationship of social interfaces with   our sociocultural development</p>
+<p>digital culture is in turmoil as ou r  third spaces are full y owned by pltaforfmrsd   . w e are fully plugged in to  .</p>
+<p>eletronic womb  . fetus  . umbilical cord (100GB ETHERNET ) Into the SPINE</p>
+<p>next stage o f humanutiy .  traditionalism (   VAT)    (susptended . sensory deperevation) /     ( retrun)</p>
+<p>3 monitors</p>
+<p>112wsx    . socio temporal nexus</p>
+<p>cxomputer hell</p>
+<p>the user interface will stop existing once  the machine learning models fully understand us</p>
+<p>the syncreticism between the old and the young. the tools to make computers approachable for the old  are the fundemental primitive that the young understand comptuers throguh .  its ahoreseshi  ( horse shoe)</p>
+<p>xcomputers must be  increasingly MORE addictive  . fqast . emotional .    no  response time given  .  immediate  off th</p>
+<p>e cuf f answers  . full information throughput betwene  interlocutors</p>
+<p>charles  has not adjusted his body  to the netwrok . he is still getting “carsick “   becauyse his body has no t adapted to its new organs</p>
+<p>having a new monitor added is like getting a new limb stitched onto your bodyt . conversely. I was mutilated when my diamondtron 2060u broke</p>
+<p>stock traders with 30 monitors a re  like  the hindu dieties</p>
+</div>
+<a class="embed-wiki-link" href="/journal/newinternet/"></a>
+</div>
 
   
           </div>
