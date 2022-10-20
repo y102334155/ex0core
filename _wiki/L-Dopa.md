@@ -18,7 +18,7 @@ It is therefore unsurprising that dopamine also lowers skepticism. If logical se
 
 
 
-[[chinese-ginseng-chicken-tonic-soup]]
+[[chinese-ginseng-chicken-tonic-soup|an alias]]
 
 ![[chinese-ginseng-chicken-tonic-soup]]
 
