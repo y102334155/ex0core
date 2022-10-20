@@ -7,6 +7,5 @@ tags:
 
 # 
 
-<% tp.user.randomhex() %>
 
 

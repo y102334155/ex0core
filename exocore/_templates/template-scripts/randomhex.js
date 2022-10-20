@@ -5,4 +5,4 @@ function my_function (msg) {
         str += characters[Math.floor(Math.random() * 16)]
 }
     
-module.exports = str;
+    console.log(str)
