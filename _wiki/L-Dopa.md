@@ -16,15 +16,10 @@ It is therefore unsurprising that dopamine also lowers skepticism. If logical se
 
 ## Testing note embedding for bug fix
 
-1. Embedded wikilink to article with whitespace in filename: Success
-
-![[Configure Exocore for Personal Use]]
-
-2. Embedded wikilink  without whitespace: Success
-
-![[newinternet]]
 
 
+[[chinese-ginseng-chicken-tonic-soup]]
 
+![[chinese-ginseng-chicken-tonic-soup]]
 
 

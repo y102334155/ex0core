@@ -34,7 +34,7 @@
 <meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="Configure Exocore for Personal Use" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-09-29T08:00:55+10:00","datePublished":"2022-09-26T00:00:00+10:00","description":"Configure Exocore for Personal Use","headline":"Configure Exocore for Personal Use","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/Configure%20Exocore%20for%20Personal%20Use/"},"url":"http://localhost:4000/articles/Configure%20Exocore%20for%20Personal%20Use/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-10-20T14:35:38+11:00","datePublished":"2022-09-26T00:00:00+10:00","description":"Configure Exocore for Personal Use","headline":"Configure Exocore for Personal Use","image":"http://localhost:4000/assets/imgs/card.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/articles/Configure%20Exocore%20for%20Personal%20Use/"},"url":"http://localhost:4000/articles/Configure%20Exocore%20for%20Personal%20Use/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>  
@@ -319,47 +319,6 @@ title: home
 
 <p>Move on to <a class="wiki-link" href="/articles/Using%20your%20Exocore/">using your exocore</a> for further guidance.</p>
 
-<h2 id="testing-note-embedding-for-bug-fix">Testing note embedding for bug fix</h2>
-
-<p><strong>No normal wikilink</strong></p>
-
-<p>(there’s nothing here)</p>
-
-<p><strong>Embedded wikilink</strong></p>
-
-<div class="embed-wrapper">
-<div class="embed-title">Configure exocore for personal use</div>
-<div class="embed-content">
-<h1 id="configure-exocore-for-personal-use">Configure Exocore for Personal Use</h1>
-<h2 id="change-your-username-and-homepage">Change your Username and Homepage</h2>
-<p>Navigate to <code class="language-plaintext highlighter-rouge">/exocore/data/user.yml</code>. Open the file in any text-editor (e.g. Notepad or TextEdit) and look for <code class="language-plaintext highlighter-rouge">user_name: Remilia Corporation</code>. Change this to whatever name you want to appear on the left sidebar.</p>
-<h2 id="change-your-homepage-content">Change your Homepage Content</h2>
-<p>In the same <code class="language-plaintext highlighter-rouge">/exocore/data/user.yml</code> file, you will also see <code class="language-plaintext highlighter-rouge">welcome_header</code> and <code class="language-plaintext highlighter-rouge">welcome_subtitle</code>. These control the title and subtitle that appear on your homepage.</p>
-<p>On the root folder you will find <code class="language-plaintext highlighter-rouge">index.md</code>, this can be edited like any other article as your homepage with the addition of the title and header from the <code class="language-plaintext highlighter-rouge">user.yml</code> file. Make sure you keep the following frontmatter at the top of the markdown file:</p>
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---layout: hometitle: home---</code></pre></div></div>
-<h2 id="change-your-profile-picture">Change your Profile Picture</h2>
-<p>The profile picture that appears on the left sidebar is located at <code class="language-plaintext highlighter-rouge">assets/img/pfp.png</code>, you can replace this file with any .png. Note that it will be resized into a square.</p>
-<h2 id="change-your-social-media-card-image">Change your Social Media Card Image</h2>
-<p>The social media card that appears when your site is linked on social media sites like Twitter, Facebook, etc. is located at <code class="language-plaintext highlighter-rouge">assets/img/card.png</code>, you can replace this file with any .png. Note that a dimension of 1200x630 is recommended.</p>
-<p>Make sure the site’s url is changed in <code class="language-plaintext highlighter-rouge">/_config.yml</code> in the next step for this image to appear.</p>
-<h2 id="change-your-sites-title-and-url">Change your Site’s Title and URL</h2>
-<p>Navigate to <code class="language-plaintext highlighter-rouge">/_config.yml</code> to change the Title and URL of your exocore. All other settings can be left as is.</p>
-<h2 id="change-the-theme">Change the Theme</h2>
-<p>The Exocore ships with multiple themes to choose from. Navigate to <code class="language-plaintext highlighter-rouge">/styles.scss</code> and look for the line that says <code class="language-plaintext highlighter-rouge">//Uncomment one of the following lines to choose a theme:</code>. To select a theme, remove <code class="language-plaintext highlighter-rouge">//</code> from the line of the theme you want to try, and add <code class="language-plaintext highlighter-rouge">//</code> to the previously active theme (“yotsuba” by default).</p>
-<h2 id="optional-password-protection">Optional: Password Protection</h2>
-<p>You can add simple password protection by going to your Netlify account, entering your site, going to <code class="language-plaintext highlighter-rouge">Settings &gt; Build &amp; Deploy &gt; Build Settings &gt; Edit Settings</code> and changing <code class="language-plaintext highlighter-rouge">Build commannd</code> from the default <code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code> to: <code class="language-plaintext highlighter-rouge">jekyll build &amp;&amp; npx staticrypt _site/index.html P@SSW0RD -o _site/index.html</code></p>
-<p>This will password protect the homepage with <code class="language-plaintext highlighter-rouge">P@SSWORD</code> as the password – you can change this to anything you’d like. Note that this will only protect the homepage, users will be able to directly link to any other page and have access to the whole site.</p>
-<hr>
-<p>Move on to <a class="wiki-link" href="/articles/Using%20your%20Exocore/">using your exocore</a> for further guidance.</p>
-<h2 id="testing-note-embedding-for-bug-fix">Testing note embedding for bug fix</h2>
-<p><strong>No normal wikilink</strong></p>
-<p>(there’s nothing here)</p>
-<p><strong>Embedded wikilink</strong></p>
-<p>![[Configure Exocore for Personal Use]]</p>
-</div>
-<a class="embed-wiki-link" href="/articles/Configure%20Exocore%20for%20Personal%20Use/"></a>
-</div>
-
 
         </div>
         </div>
@@ -369,28 +328,7 @@ title: home
   <side>
     <h1>Interlinked Pages</h1>
         
-        
-        
-        
-        <div class="backlinks-title">
-
-        <a href="/wiki/L-Dopa/""><div class="backlink-box"><b>L-Dopa</b> — Wiki  <br>
-          <div class ="backlinks-excerpt">
-            L-Dopa
-
-          </div>
-        </a>
-      </div>
-
-          
-          
-
-
-      
-        
-        
-
-
+      <p>There are no pages linking back to this one. </p>
       
   </side>
 </div>
@@ -398,18 +336,11 @@ title: home
 <!-- <hr>
 
 
-      <div style="display: grid; grid-gap: 1em; grid-template-columns: repeat(1fr);">
-      
-        <div class="backlink-box">
-        <a class="internal-link" href="/wiki/L-Dopa/"></a><br>
-        <div style="font-size: 0.9em"></div>
-        </div>
-      
-        <div class="backlink-box">
-        <a class="internal-link" href="/articles/Configure%20Exocore%20for%20Personal%20Use/"></a><br>
-        <div style="font-size: 0.9em"></div>
-        </div>
-      
+
+      <div style="font-size: 0.9em">
+        <p>
+          There are no notes linking to this note.
+        </p>
       </div>
        -->
 </article>  

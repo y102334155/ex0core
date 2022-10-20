@@ -50,12 +50,4 @@ This will password protect the homepage with `P@SSWORD` as the password -- you c
 
 Move on to [[Using your Exocore]] for further guidance.
 
-## Testing note embedding for bug fix
 
-**No normal wikilink**
-
-(there's nothing here)
-
-**Embedded wikilink**
-
-![[Configure Exocore for Personal Use]]
