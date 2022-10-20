@@ -25,18 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_articles/Configure Exocore for Personal Use.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b50bae25882a8c24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "exocore/_templates/_wiki.md",
                 "mode": "source",
                 "source": true
@@ -44,7 +32,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,17 +153,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "b50bae25882a8c24",
+  "active": "b21f801df6828923",
   "lastOpenFiles": [
+    "exocore/_templates/_journal.md",
+    "exocore/_templates/_scrapbook.md",
+    "exocore/_templates/_wiki.md",
+    "exocore/_templates/Untitled.md",
+    "_articles/Configure Exocore for Personal Use.md",
     "exocore/_templates/_article.md",
     "exocore/_templates/_daily.md",
-    "exocore/_templates/_scrapbook.md",
-    "exocore/_templates/_journal.md",
-    "exocore/_templates/_wiki.md",
     "_wiki/L-Dopa.md",
     "_wiki/Untitled.md",
-    "_articles/Writing with Exocore Syntax.md",
-    "_articles/Configure Exocore for Personal Use.md",
-    "_scrapbook/Predictive Processing and the Free Energy Principle.md"
+    "_articles/Writing with Exocore Syntax.md"
   ]
 }
