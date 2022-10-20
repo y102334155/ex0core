@@ -6,15 +6,14 @@
   <link rel="stylesheet" href="/styles.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:type" content="website">
   
-
   <meta name="keyword" content="">
   <meta name="title" content="Home">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
    <script src="/assets/js/jquery.min.js"></script>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
  <script src="/assets/js/sidenotes.js"></script>
@@ -23,17 +22,19 @@
 <meta name="generator" content="Jekyll v4.2.1" />
 <meta property="og:title" content="Home" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="The Exocore is an easily navigable personal hypertext database for text and images— a personal wiki which, over time, serves as a faithful digital representation of your brain." />
-<meta property="og:description" content="The Exocore is an easily navigable personal hypertext database for text and images— a personal wiki which, over time, serves as a faithful digital representation of your brain." />
+<meta name="description" content="A navigable, organised hypertext personal knowledge base" />
+<meta property="og:description" content="A navigable, organised hypertext personal knowledge base" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Exocore" />
+<meta property="og:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2000-01-01T00:00:00+11:00" />
-<meta name="twitter:card" content="summary" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/assets/imgs/card.png" />
 <meta property="twitter:title" content="Home" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","dateModified":"2022-06-23T08:37:11+10:00","datePublished":"2000-01-01T00:00:00+11:00","description":"The Exocore is an easily navigable personal hypertext database for text and images— a personal wiki which, over time, serves as a faithful digital representation of your brain.","headline":"Home","name":"Exocore","url":"http://localhost:4000/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","dateModified":"2022-09-28T15:57:22+10:00","datePublished":"2000-01-01T00:00:00+11:00","description":"A navigable, organised hypertext personal knowledge base","headline":"Home","image":"http://localhost:4000/assets/imgs/card.png","name":"Exocore","url":"http://localhost:4000/"}</script>
 <!-- End Jekyll SEO tag -->
 
 </head>  
@@ -48,19 +49,22 @@
       <img class="profile-pic" src="/assets/imgs/pfp.png" alt="">
       </a>
         <a class="silent-link" href="/" | absolute_url }}">
-            <h1 class="user-name silent-link">User Name</h1>
+            <h1 class="user-name silent-link">Remilia Corporation</h1>
         </a>
 </div>
   <div class="sidebar-link-box profile">
-    <a href="/"><strong>Home</strong></a>
-      <a href="/pages/all-articles">Articles</a>
-      <a href="/pages/all-journal">Journal</a>
+      <a href="/pages/articles">Articles</a>
+      <a href="/pages/journal">Journal</a>
       <a href="/pages/all-wiki">Wiki</a>
+      <a href="/pages/daily">Daily</a>
     </div>
       <div class="sidebar-link-box profile">
       <a href="/pages/latest">Latest Posts</a>
       <a href="/pages/archive">Archive</a>
+      <a href="/pages/tags">Index</a>
+      <a href="/pages/scrapbook">Scrapbook</a>
       <a href="/pages/library">Library</a>
+      <a href="/ring">Webring</a>
 
     </div>
   </div>
@@ -85,7 +89,7 @@
 <div class="content toc-container">
     <h1 class="toc-header">Table of Contents</h1>
 
-<ol class="inline_toc" id="my_toc"><li><a href="#the-exocore-package">The Exocore Package</a><ol><li><a href="#executive-summary">Executive Summary</a></li><li><a href="#how-to-begin">How to Begin</a></li><li><a href="#detailed-introduction">Detailed Introduction</a></li></ol></li><li><a href="#breaking-down-the-exocore">Breaking down the Exocore</a><ol><li><a href="#information-pipeline">Information Pipeline</a></li><li><a href="#editing-environment">Editing Environment</a><ol><li><a href="#user-experience">User experience:</a></li><li><a href="#jekyll">Jekyll</a></li><li><a href="#customizability">Customizability</a></li></ol></li><li><a href="#full-tech-stack">Full Tech Stack</a></li></ol></li></ol></div>
+<ol class="inline_toc" id="my_toc"><li><a href="#the-exocore-package">The Exocore Package</a><ol><li><a href="#executive-summary">Executive Summary</a></li><li><a href="#installation-instructions">Installation Instructions</a></li><li><a href="#detailed-introduction">Detailed Introduction</a></li></ol></li><li><a href="#breaking-down-the-exocore">Breaking down the Exocore</a><ol><li><a href="#information-pipeline">Information Pipeline</a></li><li><a href="#editing-environment">Editing Environment</a><ol><li><a href="#user-experience">User experience:</a></li><li><a href="#jekyll">Jekyll</a></li><li><a href="#customizability">Customizability</a></li></ol></li><li><a href="#full-tech-stack">Full Tech Stack</a></li></ol></li></ol></div>
 
 
         </div>
@@ -96,7 +100,7 @@
 
           <h1 id="the-exocore-package">The Exocore Package</h1>
 
-<p><img src="/images/exocore.png" alt=""></p>
+<p><a href="/articles/exocore%20installation%20instructions/" class="web-link"><img src="/images/exocore.png" alt=""></a></p>
 
 <h2 id="executive-summary">Executive Summary</h2>
 
@@ -104,8 +108,8 @@
 
 <p>The exocore is developed by <a href="https://remilia.org" class="web-link">Remilia Corporation</a> as a <a href="https://jamstack.org/" class="web-link">Jamstack</a> worfklow and extension of <a href="https://github.com/foambubble/foam" class="web-link">Foam</a> to complete the system of an accessible and standardized autopublishing knowledgebase network, as a proof-of-concept for <a href="https://mirror.xyz/charlemagnefang.eth/831rVsd2Z7cjxnBAw118gW8MylKibfC2AeJ6YUHiAvA" class="web-link">Remilia’s New Internet</a>.</p>
 
-<h2 id="how-to-begin">How to Begin</h2>
-<p>Follow the 15 minutes <a class="wiki-link" href="/articles/installation-instructions/">no code instructions</a> to install your exocore and set up automatic publishing with Netlify.</p>
+<h2 id="installation-instructions">Installation Instructions</h2>
+<p>Follow the <a class="wiki-link" href="/articles/Exocore%20Installation%20Instructions/">no code instructions</a> to install your exocore and set up automatic publishing with Netlify. Time required: ~30 minutes.</p>
 
 <h2 id="detailed-introduction">Detailed Introduction</h2>
 
@@ -163,7 +167,7 @@
 
 <p>A user download the package in the form of a Github repository template, which lives on their local machine as a directory that can be manually or automatically synced via <a href="https://git-scm.com" class="web-link">git</a> to a web domain, which represents the documents in the directory after they are processed into an eaily-navigable and feature-rich website. Their exocore can be published to the web at no-cost using Netlify’s free hosting and subdomain service.</p>
 
-<p>A user can get by just fine only interacting with simple plaintext <a href="https://www.markdownguide.org" class="web-link">markdown</a> files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore’s syntax <a class="wiki-link" href="/articles/syntax/">here</a>). They are also able to control how their generated website handles their documents in a human-readable <a class="wiki-link" href="/articles/using-exocore/#using-metadata">metadata section</a> at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.</p>
+<p>A user can get by just fine only interacting with simple plaintext <a href="https://www.markdownguide.org" class="web-link">markdown</a> files, and can write posts and create hyperlinks between them, add pictures or PDFs and more, without going beyond in-text markdown syntax (read more about the Exocore’s syntax <a class="wiki-link" href="/articles/Writing%20with%20Exocore%20Syntax/">here</a>). They are also able to control how their generated website handles their documents in a human-readable <a class="wiki-link" href="/articles/Using%20your%20Exocore/#using-metadata">metadata section</a> at the top of each post: tags, title, subtitle, categories, layouts, date, and any others that the user cares to add.</p>
 
 <p><img src="/images/girl-online.png" alt="" class="right-aside"></p>
 
@@ -176,7 +180,7 @@
     <p>A template directory including templates for simple creation of new markdown documents of different kinds (article, journal entry, wiki note, daily note), each treated differently in the rendering of your website.</p>
   </li>
   <li>
-    <p>A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with <a href="https://www.netlify.com" class="web-link">Netlify</a>, for which a setup guide is available <a class="wiki-link" href="/articles/installation-instructions/#1-deploy-your-own-exocore-to-the-web">here</a>.</p>
+    <p>A set of VSCode plugins which offer a suite of features for the user to add to their directory of posts by facilitating easy linking between notes, URL management, and many other features. The directory can be easily hosted for free with <a href="https://www.netlify.com" class="web-link">Netlify</a>, for which a setup guide is available <span class="invalid-wiki-link">[<a href="_articles/Exocore%20Installation%20Instructions" title="Exocore Installation Instructions" class="web-link">Exocore Installation Instructions#1. Deploy your own Exocore to the Web|here</a>]</span>.</p>
   </li>
 </ol>
 
@@ -193,9 +197,9 @@
 <strong>No technical knowledge:</strong>
     <ul>
       <li>
-        <p>You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. In other words, all features are fully available with no technical knowledge. You should become acquainted with the Exocore’s <a class="wiki-link" href="/articles/syntax/">syntax</a>, but this is easy enough to guess at, or to learn in under half an hour.</p>
+        <p>You can implement all of the above, and choose from a set of .CSS templates for your website to adjust its aesthetics. You can create posts, use the daily note functionality, store documents in the Library, create ZK notes and links between them, use backlinking, embed notes, and all other features mentioned above. In other words, all features are fully available with no technical knowledge. You should become acquainted with the Exocore’s <a class="wiki-link" href="/articles/Writing%20with%20Exocore%20Syntax/">writing with exocore syntax</a>, but this is easy enough to guess at, or to learn in under half an hour.</p>
 
-        <p>For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore <a class="wiki-link" href="/articles/installation-instructions/#create-github-account">documentation</a> includes a guide on how to publish your site.</p>
+        <p>For publishing, a very cursory knowledge of git will come in handy, but git has a helpful GUI, and Exocore <a class="wiki-link" href="/articles/Exocore%20Installation%20Instructions/#create-github-account">documentation</a> includes a guide on how to publish your site.</p>
       </li>
     </ul>
   </li>
@@ -223,11 +227,21 @@
 
 <ul>
   <li>
-<a href="https://code.visualstudio.com" class="web-link">VS Code</a> (and plugin package)</li>
+<a href="https://obsidian.md" class="web-link">Obsidian</a> / <a href="https://code.visualstudio.com" class="web-link">VS Code</a> (and plugin package)</li>
   <li>
-<a href="https://git-scm.com" class="web-link">Git</a> (for publishing)</li>
+<a href="https://git-scm.com" class="web-link">Git</a> (for syncing)</li>
   <li>
-<a href="https://jekyllrb.com" class="web-link">Jekyll</a> (optional)</li>
+<a href="https://jekyllrb.com" class="web-link">Jekyll</a> (for publishing)</li>
+</ul>
+
+<p><strong>Obsidian Plugins:</strong></p>
+<ul>
+  <li>Backlinks</li>
+  <li>Daily Notes</li>
+  <li>Templates</li>
+  <li><a href="https://github.com/denolehov/obsidian-git" class="web-link">Obsidian Git</a></li>
+  <li><a href="https://github.com/SilentVoid13/Templater" class="web-link">Templater</a></li>
+  <li><a href="https://github.com/dvcrn/obsidian-filename-heading-sync" class="web-link">Filename Heading Sync</a></li>
 </ul>
 
 <p><strong>VSCode Plugins:</strong></p>
