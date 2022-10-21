@@ -6,10 +6,13 @@ tags:
 ---
 
 
-<% tp.file.rename("" + tp.user.randomhex()) %>
-
-# <% await tp.file.title %>
-
-<%  tp.file.move("_wiki/" + await tp.file.title) %>
 
 
+<%_ await tp.file.move("_wiki" + "/" + tp.user.randomhex()) -%>
+
+# <% tp.file.title %>
+
+# <% tp.file.path(true) %>
+---
+
+# <% tp.file.path(true) +- 3 %>
