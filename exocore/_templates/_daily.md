@@ -1,8 +1,9 @@
 ---
 published: true
+draft: false
 subtitle: 
-date: {{date:YYYY-MM-DD}}
+date: <% tp.date.now() %>
 tags: 
 ---
-
-# {{date:YYYY-MM-DD}}
+<% await tp.file.move("_daily" + "/" + tp.date.now()) %>
+# <% tp.date.now() %>

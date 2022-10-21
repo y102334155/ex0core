@@ -11,8 +11,24 @@
             "id": "4311a066a221ca87",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "exocore/_templates/_scrapbook.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8ccbb6dc3f39aba3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exocore/_templates/_article.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "exocore/_templates/_scrapbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "exocore/_templates/_scrapbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "exocore/_templates/_scrapbook.md"
+              }
             }
           }
         ],
@@ -134,15 +154,15 @@
   },
   "active": "4311a066a221ca87",
   "lastOpenFiles": [
-    "_wiki/4f6e8c.md",
-    "_wiki/c2b381.md",
-    "_wiki/8d554f.md",
-    "_wiki/df90ea.md",
-    "exocore/_templates/Untitled.md",
-    "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
-    "_wiki/a6efd9.md",
-    "_wiki/usufruct.md",
-    "_wiki/L-Dopa.md"
+    "_scrapbook/Untitled.md",
+    "exocore/_templates/_scrapbook.md",
+    "_articles/Untitled.md",
+    "exocore/_templates/_journal.md",
+    "exocore/_templates/_article.md",
+    "_journal/Untitled.md",
+    "exocore/_templates/_daily.md",
+    "_daily/2022-10-21.md",
+    "_daily/2022-10-20.md"
   ]
 }
