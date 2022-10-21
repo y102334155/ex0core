@@ -4,27 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a866312d8fbc431d",
+        "id": "a91c9c1b0c4c7318",
         "type": "tabs",
         "children": [
           {
-            "id": "984ba23d40b14f3a",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "47d4980eec6a9f3d",
+            "id": "4311a066a221ca87",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -141,17 +132,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e509f202f4abd033",
+  "active": "4311a066a221ca87",
   "lastOpenFiles": [
+    "_wiki/4f6e8c.md",
+    "_wiki/c2b381.md",
+    "_wiki/8d554f.md",
+    "_wiki/df90ea.md",
+    "exocore/_templates/Untitled.md",
     "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
     "_wiki/a6efd9.md",
     "_wiki/usufruct.md",
-    "_wiki/L-Dopa.md",
-    "_wiki/d71c87.md",
-    "_wiki/68dd3f.md",
-    "_wiki/2438b5.md",
-    "_wiki/e8db36.md",
-    "_wiki/503bc9.md"
+    "_wiki/L-Dopa.md"
   ]
 }
