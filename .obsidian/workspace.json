@@ -11,12 +11,16 @@
             "id": "13ae7ec9904f70be",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exocore/_templates/_wiki.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1252a913f9909097",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -27,7 +31,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +98,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +114,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +135,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "exocore/_templates/_wiki.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -148,17 +149,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "e509f202f4abd033",
+  "active": "1252a913f9909097",
   "lastOpenFiles": [
-    "exocore/_templates/_wiki.md",
+    "7c6567.md",
     "exocore/_templates/Untitled.md",
-    "_articles/Writing with Exocore Syntax.md",
+    "exocore/_templates/Untitled 1.md",
+    "exocore/_templates/_wiki.md",
+    "exocore/_templates/Untitled 2.md",
     "exocore/_templates/_journal.md",
     "exocore/_templates/_scrapbook.md",
+    "_articles/Writing with Exocore Syntax.md",
     "_articles/Configure Exocore for Personal Use.md",
-    "exocore/_templates/_article.md",
-    "exocore/_templates/_daily.md",
-    "_wiki/L-Dopa.md",
-    "_wiki/Untitled.md"
+    "exocore/_templates/_article.md"
   ]
 }
