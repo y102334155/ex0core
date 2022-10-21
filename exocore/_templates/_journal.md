@@ -6,5 +6,4 @@ date: <% tp.date.now() %>
 tags: 
 ---
 
-<% await tp.file.move("_journal" + "/" + tp.file.title) %>
-# 
+#  <% tp.date.now("YYYY-MM") + ": " + (await tp.system.prompt("New journal entry title:", "Untitled", false)) %>

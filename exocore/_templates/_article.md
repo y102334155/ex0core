@@ -6,5 +6,5 @@ subtitle:
 date: <% tp.date.now() %>
 tags: 
 ---
-<% await tp.file.move("_articles" + "/" + tp.file.title) %>
-# 
+# <% await tp.system.prompt("New article title:", "Untitled", false) %>
+

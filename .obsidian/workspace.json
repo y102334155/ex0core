@@ -4,31 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "a91c9c1b0c4c7318",
+        "id": "b857649c35e64090",
         "type": "tabs",
         "children": [
           {
-            "id": "4311a066a221ca87",
+            "id": "5f82cf377049df16",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exocore/_templates/_scrapbook.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8ccbb6dc3f39aba3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exocore/_templates/_article.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -97,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_scrapbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_scrapbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "exocore/_templates/_scrapbook.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -152,17 +132,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "4311a066a221ca87",
+  "active": "5f82cf377049df16",
   "lastOpenFiles": [
+    "_journal/exocore-workflow.md",
+    "_daily/2022-05-11.md",
+    "_scrapbook/Predictive Processing and the Free Energy Principle.md",
+    "_wiki/L-Dopa.md",
+    "_articles/Set up a Custom Domain.md",
+    "_articles/Underpinnings of the Exocore.md",
     "exocore/_templates/_wiki.md",
-    "_scrapbook/Untitled.md",
-    "exocore/_templates/_scrapbook.md",
-    "_articles/Untitled.md",
-    "exocore/_templates/_journal.md",
-    "exocore/_templates/_article.md",
-    "_journal/Untitled.md",
-    "exocore/_templates/_daily.md",
-    "_daily/2022-10-21.md",
-    "_daily/2022-10-20.md"
+    "_scrapbook/hh.md",
+    "_articles/yy.md",
+    "_journal/2022-10 youou.md"
   ]
 }

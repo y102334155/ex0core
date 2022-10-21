@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "exocore/_templates",
+  "templates_folder": "",
   "templates_pairs": [
     [
       "",
@@ -29,6 +29,10 @@
     {
       "folder": "_scrapbook",
       "template": "exocore/_templates/_scrapbook.md"
+    },
+    {
+      "folder": "_daily",
+      "template": "exocore/_templates/_daily.md"
     }
   ],
   "syntax_highlighting": true,

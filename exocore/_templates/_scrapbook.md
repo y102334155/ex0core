@@ -7,5 +7,5 @@ date: <% tp.date.now() %>
 source: 
 tags: 
 ---
-<% await tp.file.move("_scrapbook" + "/" + tp.file.title) %>
-# 
+
+# <% await tp.system.prompt("New scrapbook title:", "Untitled", false) %>
