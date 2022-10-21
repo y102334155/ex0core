@@ -19,8 +19,12 @@
             "id": "1252a913f9909097",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "exocore/_templates/_scrapbook.md",
+                "mode": "source",
+                "source": true
+              }
             }
           },
           {
@@ -98,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "exocore/_templates/_scrapbook.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "exocore/_templates/_scrapbook.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "exocore/_templates/_scrapbook.md"
+              }
             }
           }
         ],
@@ -151,15 +159,15 @@
   },
   "active": "1252a913f9909097",
   "lastOpenFiles": [
-    "7c6567.md",
-    "exocore/_templates/Untitled.md",
-    "exocore/_templates/Untitled 1.md",
     "exocore/_templates/_wiki.md",
-    "exocore/_templates/Untitled 2.md",
+    "exocore/_templates/Untitled.md",
+    "exocore/_templates/_article.md",
+    "exocore/_templates/_daily.md",
     "exocore/_templates/_journal.md",
-    "exocore/_templates/_scrapbook.md",
-    "_articles/Writing with Exocore Syntax.md",
-    "_articles/Configure Exocore for Personal Use.md",
-    "exocore/_templates/_article.md"
+    "d5f88e.md",
+    "7c6567.md",
+    "exocore/_templates/Untitled 1.md",
+    "exocore/_templates/Untitled 2.md",
+    "exocore/_templates/_scrapbook.md"
   ]
 }
