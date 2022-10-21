@@ -11,32 +11,23 @@
             "id": "13ae7ec9904f70be",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "1252a913f9909097",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "exocore/_templates/_scrapbook.md",
+                "file": "exocore/_templates/_wiki.md",
                 "mode": "source",
                 "source": true
               }
             }
           },
           {
-            "id": "accd02219c06950d",
+            "id": "1252a913f9909097",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_scrapbook.md",
+                "file": "exocore/_templates/_wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_scrapbook.md",
+                "file": "exocore/_templates/_wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exocore/_templates/_scrapbook.md"
+                "file": "exocore/_templates/_wiki.md"
               }
             }
           }
@@ -157,17 +148,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "1252a913f9909097",
+  "active": "13ae7ec9904f70be",
   "lastOpenFiles": [
+    "_wiki/Untitled.md",
     "exocore/_templates/_wiki.md",
-    "exocore/_templates/Untitled.md",
-    "exocore/_templates/_article.md",
-    "exocore/_templates/_daily.md",
-    "exocore/_templates/_journal.md",
-    "d5f88e.md",
-    "7c6567.md",
-    "exocore/_templates/Untitled 1.md",
-    "exocore/_templates/Untitled 2.md",
-    "exocore/_templates/_scrapbook.md"
+    "exocore/_templates/16204e.md",
+    "exocore/_templates/48617d.md",
+    "exocore/_templates/2d0b19.md",
+    "exocore/_templates/84684f.md",
+    "exocore/_templates/function randomHex () {     let characters = \"0123456789abcdef\"     let str = \"\"     for(let i = 0; i < 6; i++)         str += characters[Math.floor(Math.random() * 16)]         return str }.md",
+    "_wiki/<% tp.file.title %>.md",
+    "_wiki/tp.file.title.md",
+    "exocore/_templates/OUCH.md"
   ]
 }
