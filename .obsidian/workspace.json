@@ -19,12 +19,8 @@
             "id": "47d4980eec6a9f3d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "exocore/_templates/_wiki.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_wiki.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_wiki.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,9 +127,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "exocore/_templates/_wiki.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -149,17 +141,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "47d4980eec6a9f3d",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
-    "_wiki/f8344c.md",
-    "_wiki/4a10c1.md",
-    "_wiki/f5b02e.md",
+    "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
-    "_wiki/0dcfd0.md",
-    "_wiki/eb8a4b.md",
-    "_wiki/3bb18e.md",
-    "_wiki/8cbbad.md",
-    "_wiki/e275aa.md",
-    "_wiki/13250f.md"
+    "_wiki/a6efd9.md",
+    "_wiki/usufruct.md",
+    "_wiki/L-Dopa.md",
+    "_wiki/d71c87.md",
+    "_wiki/68dd3f.md",
+    "_wiki/2438b5.md",
+    "_wiki/e8db36.md",
+    "_wiki/503bc9.md"
   ]
 }
