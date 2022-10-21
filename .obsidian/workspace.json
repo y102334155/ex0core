@@ -18,6 +18,14 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "accd02219c06950d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ]
       }
@@ -140,10 +148,10 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "13ae7ec9904f70be",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
-    "exocore/_templates/Untitled.md",
     "exocore/_templates/_wiki.md",
+    "exocore/_templates/Untitled.md",
     "_articles/Writing with Exocore Syntax.md",
     "exocore/_templates/_journal.md",
     "exocore/_templates/_scrapbook.md",
