@@ -147,13 +147,6 @@
     
         
 	
-    	
-        
-    
-		
-    
-        
-	
 
 	
 	</ul>
@@ -435,9 +428,9 @@ A pipe | extends the table | laterally.
 
 <p>If you want to add multi-paragraph footnotes, indent your second paragraph, like this (see footnote at bottom).<sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote web-link" rel="footnote">2</a></sup></p>
 
-<p>```<sup id="fnref:2:1" role="doc-noteref"><a href="#fn:2" class="footnote web-link" rel="footnote">2</a></sup>: For longer footnotes, you may want to use multiple paragraphs.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[^2]: For longer footnotes, you may want to use multiple paragraphs.
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Indent paragraphs to include them in the footnote. ```
+    Indent paragraphs to include them in the footnote.
 </code></pre></div></div>
 
 <p>You can put a footnote’s markdown reference immediately under a paragraph, like this<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote web-link" rel="footnote">3</a></sup>, or clump them at the end. Either way, they will appear at the bottom in your rendered content.</p>
@@ -484,18 +477,18 @@ cd ~/desktop/james-liao &amp;&amp; bundle exec jekyll serve --baseurl ''
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>This is the first footnote. Note the return button: <a href="#fnref:1" class="reversefootnote web-link" role="doc-backlink">↩</a></p>
+      <p>This is the first footnote. Note the return button: <a href="#fnref:1" class="reversefootnote web-link" role="doc-backlink">↲</a></p>
     </li>
     <li id="fn:2" role="doc-endnote">
       <p>For longer footnotes, you may want to use multiple paragraphs.</p>
 
-      <p>Indent paragraphs to include them in the footnote. <a href="#fnref:2" class="reversefootnote web-link" role="doc-backlink">↩</a> <a href="#fnref:2:1" class="reversefootnote web-link" role="doc-backlink">↩<sup>2</sup></a></p>
+      <p>Indent paragraphs to include them in the footnote. <a href="#fnref:2" class="reversefootnote web-link" role="doc-backlink">↲</a></p>
     </li>
     <li id="fn:3" role="doc-endnote">
-      <p>This footnote appears immediately underneath its referring paragraph in this document’s original markdown, but on the rendered website it shows at the bottom. <a href="#fnref:3" class="reversefootnote web-link" role="doc-backlink">↩</a></p>
+      <p>This footnote appears immediately underneath its referring paragraph in this document’s original markdown, but on the rendered website it shows at the bottom. <a href="#fnref:3" class="reversefootnote web-link" role="doc-backlink">↲</a></p>
     </li>
     <li id="fn:named-footnote" role="doc-endnote">
-      <p>This footnote has the name ‘named-footnote’. it’s still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown. <a href="#fnref:named-footnote" class="reversefootnote web-link" role="doc-backlink">↩</a></p>
+      <p>This footnote has the name ‘named-footnote’. it’s still numbered and appears in sequence the same way the others do, but naming it might help you manage a document with many footnotes when dealing with your local markdown. <a href="#fnref:named-footnote" class="reversefootnote web-link" role="doc-backlink">↲</a></p>
     </li>
   </ol>
 </div>

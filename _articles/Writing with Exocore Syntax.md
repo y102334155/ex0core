@@ -108,7 +108,8 @@ All footnotes are also rendered as sidenotes. A footnote forms a commentary or c
 
 If you want to add multi-paragraph footnotes, indent your second paragraph, like this (see footnote at bottom).[^2]
 
-```[^2]: For longer footnotes, you may want to use multiple paragraphs.
+```
+[^2]: For longer footnotes, you may want to use multiple paragraphs.
 
     Indent paragraphs to include them in the footnote.
 ```
