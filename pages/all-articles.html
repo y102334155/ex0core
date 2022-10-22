@@ -36,7 +36,7 @@ type:
        <p class="index-item-topic">Topic: {{ article.topic }}</p>	
 {% endif %}
 
-       <p class="index-item-excerpt">{{ article.excerpt | strip_html | truncate: 170 | remove: "Table of Contents:" }} </p>
+       <p class="index-item-excerpt">{{ article.content | strip_html | truncate: 170 -}} </p>
 
       </div>
           </a>
@@ -44,10 +44,14 @@ type:
        
     </div>
   </div>
+  {% include license.html %}
+
 </div>
 
 </section>
-</main>       
+</main>
+
+
 <script type="text/javascript">
   // Hack: Replace page-link with "Page Title"
   document.querySelectorAll(".markdown-body a[title]").forEach((a) => {

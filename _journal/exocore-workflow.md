@@ -8,8 +8,6 @@ tags: meta exocore computers learning
 
 {% graphviz %}
 
-
-    
 digraph G {
 
     bgcolor="black"

@@ -337,7 +337,7 @@ nav {
 /* STRUCTURE
 ================================================== */
 
-.sidebar-card, .index-card, .archive-cardi {
+.sidebar-card, .index-card, .archive-card {
     margin-bottom: 1em;
     float: left;
     clear: both;
@@ -348,7 +348,7 @@ nav {
 }
 
 .container-lg {
-    max-width: 80em;
+    max-width: 100em;
     margin: auto;
 }
 
@@ -662,8 +662,7 @@ img+em {
     color: $color-footnote-text;
 }
 
-
-  .license {
+.license {
   font-family: monospace;
   line-height: 1.1em;
   color: $color-text;
@@ -675,6 +674,7 @@ img+em {
   max-width: 28em;
   margin: 2em auto;
   text-align: center;
+  clear: left;
   }
 
 

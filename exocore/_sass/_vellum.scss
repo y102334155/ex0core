@@ -710,6 +710,20 @@ img+em {
 
 }
 
+.license {
+    font-family: monospace;
+    line-height: 1.1em;
+    color: $color-text;
+    font-size: 1rem;
+    border: $article-border;
+    background-color: $color-items;
+    display: block;
+    padding: 1em;
+    max-width: 28em;
+    margin: 2em auto;
+    text-align: center;
+    }
+
 
 /* INDEX
 ================================================== */

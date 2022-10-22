@@ -397,9 +397,9 @@ nav { background-color: #fffbf0; border: none; padding: 1em; box-shadow: 1px 1px
 
 /* STRUCTURE
 ================================================== */
-.sidebar-card, .index-card, .archive-cardi { margin-bottom: 1em; float: left; clear: both; background-color: #f0e0d6; padding: 0.5em 1em; box-sizing: border-box; width: 100%; }
+.sidebar-card, .index-card, .archive-card { margin-bottom: 1em; float: left; clear: both; background-color: #f0e0d6; padding: 0.5em 1em; box-sizing: border-box; width: 100%; }
 
-.container-lg { max-width: 80em; margin: auto; }
+.container-lg { max-width: 100em; margin: auto; }
 
 .leftcolumn { float: left; width: 15%; margin: 0.5em; }
 
@@ -502,7 +502,7 @@ img + em { display: block; color: #cc1105; text-align: center; width: 50%; margi
 ================================================== */
 .footnotes { border: thin solid black; padding: 1em 0; background-color: #fffbf0; color: black; }
 
-.license { font-family: monospace; line-height: 1.1em; color: #800000; font-size: 1rem; border: medium outset; background-color: antiquewhite; display: block; padding: 1em; max-width: 28em; margin: 2em auto; text-align: center; }
+.license { font-family: monospace; line-height: 1.1em; color: #800000; font-size: 1rem; border: medium outset; background-color: antiquewhite; display: block; padding: 1em; max-width: 28em; margin: 2em auto; text-align: center; clear: left; }
 
 /* INDEX
 ================================================== */

@@ -22,6 +22,6 @@ gem 'jekyll-wikilinks', '0.0.11'
 gem 'ruby-graphviz'
 
 
-group :jekyll_plugins do
-  gem 'jekyll-graphviz'
-end
+# group :jekyll_plugins do
+#  gem 'jekyll-graphviz'
+# end

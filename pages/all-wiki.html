@@ -34,7 +34,7 @@ type:
        {% if wiki.topic %}
        <p class="index-item-topic">Topic: {{ wiki.topic }}</p>	
 {% endif %}
-<p class="index-item-excerpt">{{- wiki.excerpt | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: wiki.title -}} </p>
+<p class="index-item-excerpt">{{- wiki.content | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: wiki.title -}} </p>
 <span style="background-color: #{{ wiki.title | remove: '-'}};" class="hex-badge"></span>
 
       </div>
@@ -43,6 +43,7 @@ type:
        
     </div>
   </div>
+  {% include license.html %}
 </div>
 
 </section>
