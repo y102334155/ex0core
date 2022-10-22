@@ -11,11 +11,64 @@
             "id": "5f82cf377049df16",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_articles/Exocore Installation Instructions.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "efc2c616b674ccc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_articles/Set up a Custom Domain.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4fb52f7fb7c337bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_articles/Exocore Executive Summary.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "86fff052f396141a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "_articles/Set up a Custom Domain.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "acbd3d57c8aff1aa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "exocore/_templates/_article.md",
+                "mode": "source",
+                "source": true
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -81,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "exocore/_templates/_article.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "exocore/_templates/_article.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "exocore/_templates/_article.md"
+              }
             }
           }
         ],
@@ -132,17 +189,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "5f82cf377049df16",
+  "active": "acbd3d57c8aff1aa",
   "lastOpenFiles": [
-    "_journal/exocore-workflow.md",
-    "_daily/2022-05-11.md",
-    "_scrapbook/Predictive Processing and the Free Energy Principle.md",
-    "_wiki/L-Dopa.md",
-    "_articles/Set up a Custom Domain.md",
-    "_articles/Underpinnings of the Exocore.md",
+    "exocore/_templates/_daily.md",
+    "exocore/_templates/_journal.md",
+    "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
-    "_scrapbook/hh.md",
-    "_articles/yy.md",
-    "_journal/2022-10 youou.md"
+    "_articles/heo.md",
+    "_articles/Set up a Custom Domain.md",
+    "exocore/_templates/_article.md",
+    "_articles/hello.md",
+    "_articles/Untitleddecur.md",
+    "_articles/Exocore Executive Summary.md"
   ]
 }
