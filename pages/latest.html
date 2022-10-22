@@ -50,7 +50,9 @@ type:
         <div class="notes-entry-container note">
           <div class="content post-content">
   
-            {{ item.content }}
+            {{ item.content | truncatewords: 100 }}
+            <br>
+            <a href="{{ item.url }}"><strong>See more</strong></a>
   
           </div>
           </div>
@@ -59,16 +61,15 @@ type:
           <div class="backlinks-container">
             <side>
               <h1>Interlinked Pages</h1>
-                <div class="backlinks-title">
                   {% for backlink in item.backlinks %}
                   {% assign linked_doc = site.documents | where: "url", backlink.url | first %}
                   {% unless linked_doc.url == {{ baseurl }} %}
-                  <a href="{{backlink.url}}""><div class="backlink-box"><b>{{ linked_doc.title }}</b> — {{ linked_doc.collection | capitalize }}  <br>
-                    <div class ="backlinks-excerpt">
-                      {{ linked_doc.excerpt | strip_html | truncatewords: 20 }}
-                    </div>
-                  </a>
-                </div>
+                  <div class="backlink-box">
+                    <a href="{{backlink.url}}"><b>{{ linked_doc.title }}</b>
+                      <br>
+                      {{ linked_doc.collection | capitalize }}
+                    </a>
+                  </div>
                 {% endunless %}
                 {% endfor %}
             </side>
