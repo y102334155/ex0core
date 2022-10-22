@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "exocore/_templates/_article.md",
+                "file": "_articles/Set up a Custom Domain.md",
                 "mode": "source",
                 "source": true
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "exocore/_templates/_article.md",
+                "file": "_articles/Set up a Custom Domain.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "exocore/_templates/_article.md",
+                "file": "_articles/Set up a Custom Domain.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "exocore/_templates/_article.md"
+                "file": "_articles/Set up a Custom Domain.md"
               }
             }
           }
@@ -191,15 +191,15 @@
   },
   "active": "acbd3d57c8aff1aa",
   "lastOpenFiles": [
+    "_daily/2022-10-22.md",
+    "exocore/_templates/_article.md",
     "exocore/_templates/_daily.md",
     "exocore/_templates/_journal.md",
     "exocore/_templates/_scrapbook.md",
     "exocore/_templates/_wiki.md",
     "_articles/heo.md",
     "_articles/Set up a Custom Domain.md",
-    "exocore/_templates/_article.md",
     "_articles/hello.md",
-    "_articles/Untitleddecur.md",
-    "_articles/Exocore Executive Summary.md"
+    "_articles/Untitleddecur.md"
   ]
 }
