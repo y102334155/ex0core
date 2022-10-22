@@ -1,8 +1,8 @@
 ---
 date: 2022-02-28
 tags:
+published: true
 ---
-# usufruct
 
 # Usufruct
 

@@ -24,6 +24,12 @@ type:
 
     <main>
       <article class="latest-post-border">
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+          {% if item.published == "draft" %}
+          <div class="draft-badge"><strong>Draft</strong></div>     
+          {% endif %}   
+          <div class="post-date"><strong>{{ page.date | date: '%B %d, %Y' }}</strong></div>
+        </div>
         <a href="{{ item.url }}">
         <div class="title">
         <h1 class="title-text">{{item.title}}</h1> 
@@ -36,7 +42,6 @@ type:
         </div>
           {% endunless %}
           {% endfor %}
-          <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
 
         <div class="notes-entry-container note">
           <div class="content post-content">

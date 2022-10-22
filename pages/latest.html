@@ -25,11 +25,19 @@ type:
 
     <main>
       <article class="latest-post-border">
+
+        {% if item.published == draft %}
+        <div style="padding: 0.5em 0.5em 0em 0.5em; position: relative;">
+        <div class="draft-badge" style="position: absoulute;"><strong>Draft</strong></div>
+        </div>
+        {% endif %}
+
         <a href="{{ item.url }}">
         <div class="title">
         <h1 class="title-text">{{item.title}}</h1> 
         </div>
       </a>
+      
           {% for subtitle in item.subtitle %}
           {% unless item.subtitle == "" %}  
         <div class = "subtitle">
@@ -38,7 +46,7 @@ type:
           {% endunless %}
           {% endfor %}
           <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
-
+          
         <div class="notes-entry-container note">
           <div class="content post-content">
   

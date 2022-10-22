@@ -73,7 +73,14 @@ h1,h2,h3,h4,h5,h6 {
   margin-left:0em;
 }
 
-.title-text { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin:0em; line-height:1em;}
+.title-text {
+    text-transform:uppercase;
+    text-decoration:underline;
+    text-align:center;
+    font-weight:bold;
+    margin:0em;
+    line-height:1em;
+}
 
 .post-content{
     
@@ -685,13 +692,24 @@ font-weight: normal;
     grid-auto-columns: 100% 10%;
 }
 
+.draft-badge {
+    padding: 0.5em;
+    width: fit-content;
+    // margin: 0.5em 0.5em auto auto;
+    // position: absolute;
+    float: right;
+    background-color: orange;
+    color: white;
+    font-weight: normal;
+  }
+  
 .post-date {
-    padding-top: 0.5em;
-    margin-top:0.5em;
-    margin-left: 0.5em;
-    margin-bottom: -0.5em;
-    text-align:center; 
-}
+    padding: 0.5em;
+    // margin: 0.5em auto auto 0.5em;
+    width: fit-content;
+    // margin: auto;
+    // position: absolute;
+  }
 
 .library-grid-container {
     width: 90%;

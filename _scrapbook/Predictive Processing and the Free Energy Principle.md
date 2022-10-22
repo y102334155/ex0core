@@ -2,6 +2,7 @@
 subtitle:
 date: 2022-04-20
 tags: psychology AI computers research learning
+published: true
 ---
 
 # Predictive Processing and the Free Energy Principle

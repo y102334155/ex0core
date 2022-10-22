@@ -73,7 +73,14 @@ h1,h2,h3,h4,h5,h6 {
   margin-left:0em;
 }
 
-.title-text { text-transform:uppercase; text-decoration:underline; text-align:center; font-weight:bold; margin:0em; line-height:1em;}
+.title-text {
+    text-transform:uppercase;
+    text-decoration:underline;
+    text-align:center;
+    font-weight:bold;
+    margin:0em;
+    line-height:1em;
+}
 
 .post-content{
     
@@ -290,7 +297,7 @@ license {
 .leftcolumn {
     float: left;
     width: 15%;
-    margin: 0em;
+    margin-right: 1.5em;
     border: $sidebar-border;
 
      @media (max-width: 900px)
@@ -694,12 +701,23 @@ font-weight: normal;
     grid-auto-columns: 100% 10%;
 }
 
+.draft-badge {
+    padding: 0.5em;
+    width: fit-content;
+    // margin: 0.5em 0.5em auto auto;
+    // position: absolute;
+    float: right;
+    background-color: red;
+    color: white;
+  }
+  
 .post-date {
-    padding-top: 0.5em;
-    margin-left: 0.5em;
-    margin-bottom: -0.5em;
-
-}
+    padding: 0.5em;
+    // margin: 0.5em auto auto 0.5em;
+    width: fit-content;
+    // margin: auto;
+    // position: absolute;
+  }
 
 .library-grid-container {
     width: 90%;

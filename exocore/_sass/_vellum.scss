@@ -128,7 +128,17 @@ h1,h2,h3,h4,h5,h6 {
   text-align:left
 }
 
-.title-text { color:#cc1105; font-weight:bold; font-size: 2em; line-height:1em; margin:0em; text-align:center; padding-bottom:0.5em; text-decoration:underline; font-variant: small-caps}
+.title-text {
+    color:#cc1105;
+    font-weight:bold;
+    font-size: 2em;
+    line-height:1em;
+    margin:0em;
+    text-align:center;
+    padding-bottom:0.5em;
+    text-decoration:underline;
+    font-variant: small-caps;
+}
 
 .post-content{
 
@@ -796,15 +806,23 @@ font-weight: normal;
     grid-auto-columns: 100% 10%;
 }
 
+.draft-badge {
+    padding: 0.5em;
+    width: fit-content;
+    // margin: 0.5em 0.5em auto auto;
+    // position: absolute;
+    float: right;
+    background-color: red;
+    color: white;
+  }
+  
 .post-date {
-    padding-top: 0.5em;
-    margin-left: 0.5em;
-    margin-bottom: 1em;
-    text-align: center;
-    font-style: italic;
-    font-weight: bold;
-
-}
+    padding: 0.5em;
+    // margin: 0.5em auto auto 0.5em;
+    width: fit-content;
+    // margin: auto;
+    // position: absolute;
+  }
 
 .library-grid-container {
     width: 90%;

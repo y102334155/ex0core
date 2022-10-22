@@ -1,6 +1,5 @@
 ---
 published: true
-draft: false
 author: 
 subtitle: 
 date: <% tp.date.now() %>
