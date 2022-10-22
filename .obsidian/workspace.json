@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_articles/Testing Draft Status.md",
+                "file": "_scrapbook/Predictive Processing and the Free Energy Principle.md",
                 "mode": "source",
                 "source": true
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_articles/Testing Draft Status.md",
+                "file": "_scrapbook/Predictive Processing and the Free Energy Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_articles/Testing Draft Status.md",
+                "file": "_scrapbook/Predictive Processing and the Free Energy Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_articles/Testing Draft Status.md"
+                "file": "_scrapbook/Predictive Processing and the Free Energy Principle.md"
               }
             }
           }
@@ -155,6 +155,8 @@
   },
   "active": "938452de2743914f",
   "lastOpenFiles": [
+    "_daily/2022-10-22.md",
+    "_articles/Testing Draft Status.md",
     "_articles/Configure Exocore for Personal Use.md",
     "_scrapbook/Predictive Processing and the Free Energy Principle.md",
     "_daily/2022-05-11.md",
@@ -162,8 +164,6 @@
     "_articles/Set up a Custom Domain.md",
     "_articles/Exocore Executive Summary.md",
     "ring.md",
-    "readme.md",
-    "assets/filesort.md",
-    "images/border-effect.png"
+    "readme.md"
   ]
 }
