@@ -399,7 +399,7 @@ nav { background-color: #fffbf0; border: none; padding: 1em; box-shadow: 1px 1px
 ================================================== */
 .sidebar-card, .index-card, .archive-card { margin-bottom: 1em; float: left; clear: both; background-color: #f0e0d6; padding: 0.5em 1em; box-sizing: border-box; width: 100%; }
 
-.container-lg { max-width: 100em; margin: auto; }
+.container-lg { max-width: 85em; margin: auto; }
 
 .leftcolumn { float: left; width: 15%; margin: 0.5em; }
 

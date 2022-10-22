@@ -49,11 +49,11 @@ type:
           
         <div class="notes-entry-container note">
           <div class="content post-content">
-  
-            {{ item.content | truncatewords: 100 }}
+            {{ item.content | truncatewords: 7000 }}
+            {% if item.content.size > 7000 %}
             <br>
-            <a href="{{ item.url }}"><strong>See more</strong></a>
-  
+            <a href="{{ item.url }}"><strong>See more</strong></a>  
+            {% endif %}
           </div>
           </div>
           {% if item.backlinks.size > 0 %}
