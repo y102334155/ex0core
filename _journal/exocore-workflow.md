@@ -1,5 +1,6 @@
 ---
 subtitle:
+published: draft
 date: 2022-04-22
 tags: meta exocore computers learning
 ---

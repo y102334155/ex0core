@@ -26,12 +26,13 @@ type:
 
     <main>
       <article class="latest-post-border">
-      <div style="padding: 0.5em 0.5em 0em 0.5em">
-        {% if item.published == "draft" %}
-        <div class="draft-badge"><strong>Draft</strong></div>     
-        {% endif %}   
-        <div class="post-date"><strong>{{ page.date | date: '%B %d, %Y' }}</strong></div>
-      </div>
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+          {% if item.published == "draft" %}
+          <div class="draft-badge"><strong>Draft</strong></div>     
+          {% endif %}   
+          <div class="post-date"><strong>Created:</strong> {{ item.date | date: '%b %d, %Y' }}</div>
+          <div class="post-date"><strong>Modified:</strong> {{ item.last_modified_at | date: '%b %d, %Y' }}</div>
+        </div>
         <a href="{{ item.url }}">
         <div class="title">
         <h1 class="title-text">{{item.title}}</h1> 

@@ -1,9 +1,6 @@
 ---
 layout: page
 title: Latest
-date:
-type:
-
 ---
 
 
@@ -33,7 +30,9 @@ type:
           {% if item.published == "draft" %}
           <div class="draft-badge"><strong>Draft</strong></div>     
           {% endif %}   
-          <div class="post-date"><strong>{{ page.date | date: '%B %d, %Y' }}</strong></div>
+          <div class="post-date"><strong>Created:</strong> {{ item.date | date: '%b %d, %Y' }}</div>
+          <div class="post-date"><strong>Modified:</strong> {{ item.last_modified_at | date: '%b %d, %Y' }}</div>
+
         </div>
 
         <a href="{{ item.url }}">

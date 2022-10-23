@@ -48,6 +48,9 @@ kramdown:
   syntax_highlighter: rouge
   footnote_backlink: "↲"
 
+last-modified-at:
+  date-format: '%B %d, %Y' # Change the format of the 'last modified' date. 
+
 readme_index:
   enabled: true
 
@@ -138,7 +141,7 @@ plugins:
 - jekyll-default-layout
 - jekyll-titles-from-headings
 - jekyll-relative-links
-- jekyll-github-metadata
+# - jekyll-github-metadata
 - jekyll-seo-tag
 - html-proofer
 - rubocop
@@ -147,4 +150,4 @@ plugins:
 - jekyll-redirect-from
 - jekyll-feed
 - jekyll-wikilinks
-- ruby-graphviz
+- jekyll-last-modified-at
