@@ -40,8 +40,6 @@ source: .
 destination: _site
 background: "red"
 highlighter: rouge
-permalink: /:categories/:slug/
-
 gist:
   noscript: false
 
@@ -102,19 +100,24 @@ collections:
 
   wiki:
     output: true
-    
+    permalink: /:collection/:slug
+
   journal:
     output: true
-    
+    permalink: /:collection/:slug
+
   articles:
     output: true
+    permalink: /:collection/:slug
 
   daily:
     output: true
-
+    permalink: /:collection/:slug
+  
   scrapbook:
     output: true
-
+    permalink: /:collection/:slug
+  
 relative_links:
   enabled:     true
   collections: true
