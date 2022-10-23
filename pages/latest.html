@@ -63,7 +63,7 @@ type:
               <h1>Interlinked Pages</h1>
                   {% for backlink in item.backlinks %}
                   {% assign linked_doc = site.documents | where: "url", backlink.url | first %}
-                  {% unless linked_doc.url == {{ baseurl }} %}
+                  {% unless linked_doc.url == {{ site.baseurl }} %}
                   <div class="backlink-box">
                     <a href="{{backlink.url}}"><b>{{ linked_doc.title }}</b>
                       <br>
