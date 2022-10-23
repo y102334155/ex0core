@@ -26,11 +26,12 @@ type:
     <main>
       <article class="latest-post-border">
 
-        {% if item.published == draft %}
-        <div style="padding: 0.5em 0.5em 0em 0.5em; position: relative;">
-        <div class="draft-badge" style="position: absoulute;"><strong>Draft</strong></div>
+        <div style="padding: 0.5em 0.5em 0em 0.5em">
+          {% if item.published == "draft" %}
+          <div class="draft-badge"><strong>Draft</strong></div>     
+          {% endif %}   
+          <div class="post-date"><strong>{{ page.date | date: '%B %d, %Y' }}</strong></div>
         </div>
-        {% endif %}
 
         <a href="{{ item.url }}">
         <div class="title">
@@ -44,9 +45,7 @@ type:
           <h2 class="subtitle-text">{{item.subtitle}}</h2>
         </div>
           {% endunless %}
-          {% endfor %}
-          <div style="margin: 1em; "> <b>Date:</b> {{ item.date | date: "%-d %B %Y" }}</div>
-          
+          {% endfor %}          
         <div class="notes-entry-container note">
           <div class="content post-content">
             {{ item.content | truncatewords: 7000 }}
@@ -63,7 +62,7 @@ type:
               <h1>Interlinked Pages</h1>
                   {% for backlink in item.backlinks %}
                   {% assign linked_doc = site.documents | where: "url", backlink.url | first %}
-                  {% unless linked_doc.url == {{ site.baseurl }} %}
+                  {% unless linked_doc.url ==  baseurl %}
                   <div class="backlink-box">
                     <a href="{{backlink.url}}"><b>{{ linked_doc.title }}</b>
                       <br>

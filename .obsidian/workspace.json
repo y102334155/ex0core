@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_articles/Configure Exocore for Personal Use.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "938452de2743914f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_daily/2022-10-23.md",
+                "file": "_articles/Writing with Exocore Syntax.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_daily/2022-10-23.md",
+                "file": "_articles/Writing with Exocore Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_daily/2022-10-23.md",
+                "file": "_articles/Writing with Exocore Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,12 +125,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_daily/2022-10-23.md"
+                "file": "_articles/Writing with Exocore Syntax.md"
               }
+            }
+          },
+          {
+            "id": "aba8275b4914b122",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -153,15 +148,15 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "938452de2743914f",
+  "active": "0dd3001b34aba67a",
   "lastOpenFiles": [
+    "_articles/Configure Exocore for Personal Use.md",
+    "_articles/Writing with Exocore Syntax.md",
     "_daily/2022-10-23.md",
     "_daily/2022-05-11.md",
     "_daily/2022-10-22.md",
-    "_articles/Writing with Exocore Syntax.md",
     "_scrapbook/Predictive Processing and the Free Energy Principle.md",
     "_articles/Testing Draft Status.md",
-    "_articles/Configure Exocore for Personal Use.md",
     "_articles/Exocore Installation Instructions.md",
     "_articles/Set up a Custom Domain.md",
     "_articles/Exocore Executive Summary.md"

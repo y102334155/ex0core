@@ -85,19 +85,27 @@ Kramdown, the Markdown parser used by this implementation of the Exocore, has th
   
 
 ## Tables
+
 ```
-You | can | create a table | like this.
-A newline | in markdown | extends the table | vertically.
-A pipe | extends the table | laterally.
+| You can           | create a          | simple table      | like this.     |
+| ----------------- | ----------------- | ----------------- | -------------- |
+| A new line        | in markdown       | extends the table | vertically.    |
+| A pipe            | extends the table | laterally.        |                |
+| for more options, | Check out         | 'advanced tables' | in the sidebar |
+| This plugin       | will assist you   | with spacing      | and syntax.    |
 ```
 
-You | can | create a table | like this.
-A newline | in markdown | extends the table | vertically.
-A pipe | extends the table | laterally.
+| You can           | create a          | simple table      | like this.      |
+| ----------------- | ----------------- | ----------------- | --------------- |
+| A new line        | in markdown       | extends the table | vertically.     |
+| A pipe            | extends the table | laterally.        |                 |
+| For more options, | Check out         | 'advanced tables' | in the sidebar. | 
+| This plugin       | will assist you   | with spacing      | and syntax.     |
+
 
 ## Graphviz
 
-For more complex data representation, [Graphviz](https://graphviz.org/) can be used in conjunction with the Exocore. Read more about Graphviz syntax [here](https://graphviz.org/documentation/), and find a demonstration of the way it is used with the Exocore [[graphviz-test|here]]
+For more complex data representation, [Graphviz](https://graphviz.org/) can be used in conjunction with the Exocore. Read more about Graphviz syntax [here](https://graphviz.org/documentation/), and find a demonstration of the way it is used with the Exocore [[exocore-workflow|here]].
 
 
 ## Sidenotes and Footnotes:
