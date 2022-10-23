@@ -13,11 +13,14 @@ type:
     <div class="leftcolumn">
       {% include profile-card.html %}
     </div>
+    {% assign items = site.documents | sort: 'date' | reverse %}
+    {% assign posts_displayed = site.documents.size | at_most: 10 %}
+    {% assign posts_total  = site.documents.size %}
 
     <div class="midcolumn">
       <article>
         <h1 class="title-text">Latest Posts</h1>
-        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.documents.size }} posts</p>
+        <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} posts</p>
       </article>
 <br>
       {% assign items = site.documents | sort: 'date' | reverse %}

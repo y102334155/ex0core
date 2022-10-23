@@ -11,15 +11,17 @@ type:
     <div class="leftcolumn">
       {% include profile-card.html %}
     </div>
+    {% assign items = site.journal | sort: 'date' | reverse %}
+    {% assign posts_displayed = site.journal.size | at_most: 10 %}
+    {% assign posts_total  = site.journal.size %}
 
     <div class="midcolumn">
       <article>
         <h1 class="title-text">Latest Journal Entries</h1>
-        <p style=" width: 100%; text-align: center">Showing latest 10 of {{ site.journal.size }} entries</p>
+        <p style=" width: 100%; text-align: center">Showing latest {{ posts_displayed }} of {{ posts_total }} entries</p>
         <p style=" width: 100%; text-align: center"><a href="/pages/all-journal/">View Index</a></p>
       </article>
 <br>
-      {% assign items = site.journal | sort: 'date' | reverse %}
       {% for item in items %}	
 
     <main>
