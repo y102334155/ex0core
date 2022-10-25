@@ -7,5 +7,6 @@
   "foldIndent": false,
   "showLineNumber": true,
   "showUnsupportedFiles": true,
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true
 }
