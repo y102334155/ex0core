@@ -486,6 +486,8 @@ img + em { display: block; color: #cc1105; text-align: center; width: 50%; margi
 
 .embed-content p { color: black; }
 
+.embed-image { display: block; }
+
 /* SIDENOTES
 ================================================== */
 .sidenote { padding-left: 5px; padding-top: 3px; padding-bottom: 3px; margin-left: 1em; font-style: italic; font-size: 0.8em; line-height: 1.1em; box-sizing: border-box; background-color: #fffffa; border: thin solid #117743; color: black; }
