@@ -19,24 +19,17 @@ type:
     <p style="float: right">Showing {{ site.wiki.size }} items</p>
     <h1 class="index-title">Index of Wiki Notes (By most recent)</h1>
   <div class="index-grid">
-
-
-    {% for topic in site.topic %}
-  {{ topic }}
-  {% endfor %}
-
-  {% assign topic_sort = site.wiki | sort: 'date' | reverse %}
-  {% for wiki in topic_sort %}	
-    <a class="index-anchor" href="{{ wiki.url }}">
+  {% assign item_sort = site.wiki | sort: 'date' | reverse %}
+  {% for item in item_sort %}	
+    <a class="index-anchor" href="{{ item.url }}">
       <div class="index-item">
-       <span class="index-item-title">{{ wiki.title }}</span>
-       <span class="index-item-date" style="float: none;">{{ wiki.date | date: "%d %b %Y" }}</span>
-       {% if wiki.topic %}
-       <p class="index-item-topic">Topic: {{ wiki.topic }}</p>	
-{% endif %}
-<p class="index-item-excerpt">{{- wiki.content | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: wiki.title -}} </p>
-<span style="background-color: #{{ wiki.title | remove: '-'}};" class="hex-badge"></span>
-
+        <span class="index-item-title">{{ item.title | truncate: 55 }}</span>
+       <span class="index-item-date">{{ item.date | date: "%d %b %Y" }}</span>
+       <p class="index-item-excerpt">{{- item.content | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: item.title -}} </p>
+       <!-- Uncomment below for hex colour badge (only works if titles are hexes) -->
+       <!-- <span style="background-color: #{{ item.title | remove: '-'}};" class="hex-badge"></span> -->
+       <!-- also add the below to 'index-item-date' -->
+        <!-- style="float: none;"  -->
       </div>
           </a>
        {% endfor %}

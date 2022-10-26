@@ -19,15 +19,13 @@ type:
     <div class="index-grid">
 
 
-  {% assign topic_sort = site.journal | sort: 'date' | reverse %}
-  {% for journal in topic_sort %}	
-    <a class="index-anchor" href="{{ journal.url }}">
+  {% assign item_sort = site.journal | sort: 'date' | reverse %}
+  {% for item in item_sort %}	
+    <a class="index-anchor" href="{{ item.url }}">
       <div class="index-item">
-       <span class="index-item-title">{{ journal.title }}</span>
-       <span class="index-item-date">{{ journal.date | date: "%d %b %Y" }}</span>
-
-       <p class="index-item-excerpt">{{- journal.content | strip_html | truncate: 170 -}} </p>
-       
+        <span class="index-item-date">{{ item.date | date: "%d %b %Y" }}</span>
+        <span class="index-item-title">{{ item.title | truncate: 55 }}</span>
+        <span class="index-item-excerpt">{{- item.content | strip_html | truncate: 150 -}} </span>
       </div>
           </a>
        {% endfor %}

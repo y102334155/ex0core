@@ -19,24 +19,19 @@ type:
     <p style="float: right">Showing {{ site.articles.size }} items</p>
     <h1 class="index-title">Index of Articles (By most recent)</h1>
   <div class="index-grid">
-
-
-    {% for topic in site.topic %}
-  {{ topic }}
-  {% endfor %}
-
   {% assign topic_sort = site.articles | sort: 'topic'%}
-  {% for article in topic_sort %}	
-    <a class="index-anchor" href="{{ article.url }}">
+  {% for item in topic_sort %}	
+    <a class="index-anchor" href="{{ item.url }}">
       <div class="index-item">
-       <span class="index-item-title">{{ article.title }}</span>
-       <span class="index-item-date">{{ article.date | date: "%d %b %Y" }}</span>
+        <span class="index-item-title">{{ item.title | truncate: 55 }}</span>
+        <span class="index-item-date">{{ item.date | date: "%d %b %Y" }}</span>
 
-       {% if article.topic %}
-       <p class="index-item-topic">Topic: {{ article.topic }}</p>	
-{% endif %}
+      {% if item.topic %}
+      <br>
+       <span class="index-item-topic">Topic: {{ item.topic }}</span>	
+      {% endif %}
 
-       <p class="index-item-excerpt">{{ article.content | strip_html | truncate: 170 -}} </p>
+       <span class="index-item-excerpt">{{ item.content | strip_html | truncate: 150 -}} </span>
 
       </div>
           </a>
