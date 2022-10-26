@@ -30,7 +30,7 @@ type:
        <span class="index-item-title">{{ scrapbook.title }}</span>
        <span class="index-item-date">{{ scrapbook.date | date: "%d %b %Y" }}</span>
 
-       <p class="index-item-excerpt">{{- scrapbook.excerpt | strip_html | remove: "Table of Contents:"| truncate: 170 | remove: scrapbook.title -}} </p>
+       <p class="index-item-excerpt">{{- scrapbook.content | strip_html | truncate: 170 -}} </p>
        
       </div>
           </a>
