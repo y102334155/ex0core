@@ -18,7 +18,6 @@ type:
     <h1 class="index-title">Index of Journal Entries (By most recent)</h1>
     <div class="index-grid">
 
-
   {% assign item_sort = site.journal | sort: 'date' | reverse %}
   {% for item in item_sort %}	
     <a class="index-anchor" href="{{ item.url }}">

@@ -605,6 +605,27 @@ img+em {
 }
 .embed-content p {
     color: $color-embed-text;
+    // line-height: 1.5em;
+    max-height: calc(1.5em * 10); // Number of lines to truncate embedded posts to
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 10; // Number of lines to truncate embedded posts to
+    // white-space: nowrap;
+}
+
+.embed-content h1 {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight:bold;
+}
+
+.embed-wiki-link::after {
+content: "Read more";
+height: 100%;
+padding: 1em;
 }
 
 .embed-image {
