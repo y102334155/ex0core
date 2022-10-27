@@ -586,22 +586,6 @@ img + em { display: block; color: #cc1105; text-align: center; width: 50%; margi
 
 /* NETWORK GRAPH (BACKLINK VISUAL REPRESENTATION)
 ================================================== */
-.network-graph-container { clear: both; margin-top: 1em; display: block; background: #f0e0d6; border: medium outset; padding: 2em; height: 45em; }
-
-.network-graph-container h1 { text-align: center; margin-bottom: 1em; }
-
-.links line { stroke: #cc1105; opacity: 0.5; }
-
-.nodes circle { cursor: pointer; fill: #cc1105; transition: all 0.15s ease-out; }
-
-.text text { cursor: pointer; fill: black; }
-
-.nodes [active], .text [active] { cursor: pointer; fill: #cc1105; font-weight: bold; text-decoration: underline; }
-
-.inactive { opacity: 0.4; transition: all 0.15s ease-out; }
-
-#graph-wrapper svg { background: #fffbf0; height: 40em; }
-
 /* LISTS AND TABLES
 ================================================== */
 ol li { list-style-type: decimal; }

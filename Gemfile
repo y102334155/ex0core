@@ -21,3 +21,4 @@ gem "jekyll-tagging"
 gem 'jekyll-wikilinks', '0.0.11'
 gem 'ruby-graphviz'
 gem "jekyll-last-modified-at"
+gem "jekyll-graph"

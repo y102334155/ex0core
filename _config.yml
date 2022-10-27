@@ -134,6 +134,33 @@ graphviz:
   options: "-Tsvg" # 'dot' command option
   command: "dot"   # execute this string. specify full path to 'dot' if you need
 
+# Configure your network graph:
+
+graph:
+  enabled: true
+  exclude: []
+  path:
+    assets: "/assets"
+    scripts: "/js"
+  net_web:
+    enabled: true
+    exclude:
+      attrs: false
+      links: false
+    force:
+      charge: -300
+      strength_x: 0.1
+      x_val: 0.75
+      strength_y: 0.1
+      y_val: 0.9
+  tree:
+    enabled: false
+    force:
+      charge:
+      strength_x:
+      x_val:
+      strength_y:
+      y_val:
 
 plugins:
 - jekyll-optional-front-matter
@@ -151,3 +178,4 @@ plugins:
 - jekyll-feed
 - jekyll-wikilinks
 - jekyll-last-modified-at
+- jekyll-graph

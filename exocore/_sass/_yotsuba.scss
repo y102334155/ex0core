@@ -925,57 +925,58 @@ font-weight: normal;
 /* NETWORK GRAPH (BACKLINK VISUAL REPRESENTATION)
 ================================================== */
 
-.network-graph-container {
-    clear: both;
-    margin-top: 1em;
-    display: block;
-    background: $background;
-    border: $article-border;
-    padding: 2em;
-    height: 45em;
+
+// .network-graph-container {
+//     clear: both;
+//     margin-top: 1em;
+//     display: block;
+//     background: $background;
+//     border: $article-border;
+//     padding: 2em;
+//     height: 45em;
     
-    & h1 {
-        text-align: center;
-        margin-bottom: 1em;
-    }
-}
+//     & h1 {
+//         text-align: center;
+//         margin-bottom: 1em;
+//     }
+// }
 
 
-  .links line {
-    stroke: $color-primary;
-    opacity: 0.5;
-  }
+//   .links line {
+//     stroke: $color-primary;
+//     opacity: 0.5;
+//   }
 
-  .nodes circle {
-    cursor: pointer;
-    fill: $color-primary;
-    transition: all 0.15s ease-out;
-  }
+//   .nodes circle {
+//     cursor: pointer;
+//     fill: $color-primary;
+//     transition: all 0.15s ease-out;
+//   }
 
-  .text text {
-    cursor: pointer;
-    fill: $color-subtext;
-  }
+//   .text text {
+//     cursor: pointer;
+//     fill: $color-subtext;
+//   }
 
-  .nodes [active],
-  .text [active] {
-      cursor: pointer;
-      fill: $color-primary;
-      font-weight: bold;
-      text-decoration: underline;
+//   .nodes [active],
+//   .text [active] {
+//       cursor: pointer;
+//       fill: $color-primary;
+//       font-weight: bold;
+//       text-decoration: underline;
       
-  }
+//   }
 
-  .inactive {
-    opacity: 0.4;
-    transition: all 0.15s ease-out;
-  }
+//   .inactive {
+//     opacity: 0.4;
+//     transition: all 0.15s ease-out;
+//   }
 
 
-  #graph-wrapper svg {
-      background: $color-inner-divs;
-      height: 40em;
-  }
+//   #graph-wrapper svg {
+//       background: $color-inner-divs;
+//       height: 40em;
+//   }
 
 
 
