@@ -288,7 +288,7 @@
 <div class="content toc-container">
     <h1 class="toc-header">Table of Contents</h1>
 
-<ol class="inline_toc" id="my_toc"><li><a href="#markdown-basics">Markdown Basics</a></li><li><a href="#headers">Headers</a><ol><li><a href="#heading-levels">Heading levels</a></li></ol></li><li><a href="#examples-of-wikilinks">Examples of Wikilinks:</a></li><li><a href="#wikilink-embeds">Wikilink Embeds</a></li><li><a href="#external-hyperlinks">External Hyperlinks</a></li><li><a href="#applying-classes-to-a-paragraph-or-image">Applying classes to a paragraph or image</a></li><li><a href="#tables">Tables</a></li><li><a href="#graphviz">Graphviz</a></li><li><a href="#sidenotes-and-footnotes">Sidenotes and Footnotes:</a></li><li><a href="#inserting-images">Inserting images</a></li><li><a href="#embedded-code">Embedded Code</a></li><li><a href="#naming-files">Naming files</a></li></ol></div>
+<ol class="inline_toc" id="my_toc"><li><a href="#markdown-basics">Markdown Basics</a></li><li><a href="#headers">Headers</a><ol><li><a href="#heading-levels">Heading levels</a></li></ol></li><li><a href="#examples-of-wikilinks">Examples of Wikilinks:</a></li><li><a href="#wikilink-embeds">Wikilink Embeds</a></li><li><a href="#external-hyperlinks">External Hyperlinks</a></li><li><a href="#change-your-username-and-homepage">Change your Username and Homepage</a></li><li><a href="#change-your-homepage-content">Change your Homepage Content</a></li><li><a href="#change-your-profile-picture">Change your Profile Picture</a></li><li><a href="#change-your-social-media-card-image">Change your Social Media Card Image</a></li><li><a href="#change-your-sites-title-and-url">Change your Site’s Title and URL</a></li><li><a href="#change-the-theme">Change the Theme</a></li><li><a href="#optional-password-protection">Optional: Password Protection</a></li><li><a href="#applying-classes-to-a-paragraph-or-image">Applying classes to a paragraph or image</a></li><li><a href="#tables">Tables</a></li><li><a href="#graphviz">Graphviz</a></li><li><a href="#sidenotes-and-footnotes">Sidenotes and Footnotes:</a></li><li><a href="#inserting-images">Inserting images</a></li><li><a href="#embedded-code">Embedded Code</a></li><li><a href="#naming-files">Naming files</a></li></ol></div>
 
 
         </div>
@@ -346,6 +346,34 @@
 <h2 id="external-hyperlinks">External Hyperlinks</h2>
 
 <p>Hyperlinks to external sites are not the same as wikilinks. A wikilink is a simple way to hyperlink to other posts on your Exocore without using the full processed URL as it is rendered online. A wikilink works locally in VSCode, allowing you to navigate between posts, and is transformed at render time to a web hyperlink, so that it always points to the correct page.</p>
+
+<div class="embed-wrapper">
+<div class="embed-title">Configure exocore for personal use</div>
+<div class="embed-content">
+<h1 id="configure-exocore-for-personal-use">Configure Exocore for Personal Use</h1>
+<h2 id="change-your-username-and-homepage">Change your Username and Homepage</h2>
+<p>Navigate to <code class="language-plaintext highlighter-rouge">/exocore/data/user.yml</code>. Open the file in any text-editor (e.g. Notepad or TextEdit) and look for <code class="language-plaintext highlighter-rouge">user_name: Remilia Corporation</code>. Change this to whatever name you want to appear on the left sidebar.</p>
+<h2 id="change-your-homepage-content">Change your Homepage Content</h2>
+<p>In the same <code class="language-plaintext highlighter-rouge">/exocore/data/user.yml</code> file, you will also see <code class="language-plaintext highlighter-rouge">welcome_header</code> and <code class="language-plaintext highlighter-rouge">welcome_subtitle</code>. These control the title and subtitle that appear on your homepage.</p>
+<p>On the root folder you will find <code class="language-plaintext highlighter-rouge">index.md</code>, this can be edited like any other article as your homepage with the addition of the title and header from the <code class="language-plaintext highlighter-rouge">user.yml</code> file. Make sure you keep the following frontmatter at the top of the markdown file:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---layout: hometitle: home---</code></pre></div></div>
+<h2 id="change-your-profile-picture">Change your Profile Picture</h2>
+<p>The profile picture that appears on the left sidebar is located at <code class="language-plaintext highlighter-rouge">assets/img/pfp.png</code>, you can replace this file with any .png. Note that it will be resized into a square.</p>
+<h2 id="change-your-social-media-card-image">Change your Social Media Card Image</h2>
+<p>The social media card that appears when your site is linked on social media sites like Twitter, Facebook, etc. is located at <code class="language-plaintext highlighter-rouge">assets/img/card.png</code>, you can replace this file with any .png. Note that a dimension of 1200x630 is recommended.</p>
+<p>Make sure the site’s url is changed in <code class="language-plaintext highlighter-rouge">/_config.yml</code> in the next step for this image to appear.</p>
+<h2 id="change-your-sites-title-and-url">Change your Site’s Title and URL</h2>
+<p>Navigate to <code class="language-plaintext highlighter-rouge">/_config.yml</code> to change the Title and URL of your exocore. All other settings can be left as is.</p>
+<h2 id="change-the-theme">Change the Theme</h2>
+<p>The Exocore ships with multiple themes to choose from. Navigate to <code class="language-plaintext highlighter-rouge">/styles.scss</code> and look for the line that says <code class="language-plaintext highlighter-rouge">//Uncomment one of the following lines to choose a theme:</code>. To select a theme, remove <code class="language-plaintext highlighter-rouge">//</code> from the line of the theme you want to try, and add <code class="language-plaintext highlighter-rouge">//</code> to the previously active theme (“yotsuba” by default).</p>
+<h2 id="optional-password-protection">Optional: Password Protection</h2>
+<p>You can add simple password protection by going to your Netlify account, entering your site, going to <code class="language-plaintext highlighter-rouge">Settings &gt; Build &amp; Deploy &gt; Build Settings &gt; Edit Settings</code> and changing <code class="language-plaintext highlighter-rouge">Build commannd</code> from the default <code class="language-plaintext highlighter-rouge">bundle exec jekyll build</code> to: <code class="language-plaintext highlighter-rouge">jekyll build &amp;&amp; npx staticrypt _site/index.html P@SSW0RD -o _site/index.html</code></p>
+<p>This will password protect the homepage with <code class="language-plaintext highlighter-rouge">P@SSWORD</code> as the password – you can change this to anything you’d like. Note that this will only protect the homepage, users will be able to directly link to any other page and have access to the whole site.</p>
+<hr>
+<p>Move on to [[Using your Exocore]] for further guidance.</p>
+</div>
+<a class="embed-wiki-link" href="/articles/configure-exocore-for-personal-use"></a>
+</div>
 
 <p>To create a hyperlink, use single normal parentheses around the URL you want to point to, and square brackets around the text you want displayed:</p>
 

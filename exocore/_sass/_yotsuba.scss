@@ -603,26 +603,38 @@ img+em {
 .embed-content {
     color: $color-embed-text;
 }
-.embed-content p {
+.embed-content {
     color: $color-embed-text;
-    // line-height: 1.5em;
-    max-height: calc(1.5em * 10); // Number of lines to truncate embedded posts to
+    // // line-height: 1.5em;
+    max-height: calc(1.5em * 15); // Number of lines to truncate embedded posts to
     display: block;
     overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 10; // Number of lines to truncate embedded posts to
+    position: relative;
+    // text-overflow: ellipsis;
+    // display: -webkit-box;
+    // -webkit-box-orient: vertical;
+    // -webkit-line-clamp: 10; // Number of lines to truncate embedded posts to
     // white-space: nowrap;
 }
 
-.embed-content h1 {
+.embed-content::after {
+  content: "";
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 9.5em;
+  background: linear-gradient(to bottom, transparent, $color-embed-background 95%);
+}
+
+.embed-content h1, h2, h3, h4 {
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
   font-weight:bold;
 }
 
-.embed-wiki-link::after {
+.embed-wiki-link::before {
 content: "Read more";
 height: 100%;
 padding: 1em;
