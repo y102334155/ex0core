@@ -50,7 +50,26 @@ $font-family-sans-serif: Helvetica, Arial, -apple-system, BlinkMacSystemFont, Se
 
 $font-family-serif: serif;
 
-$font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;;
+$font-family-monospace: ”Iosevka Term SS03”,”IBM Plex Mono”,”Fira Code”,”Fira Mono”,”Roboto Mono”,”Droid Sans Mono”,Monaco,Consolas,Courier,monospace;
+
+
+/* --- Design your network graph --- */
+:root {
+/* NODE COLOUR */
+--graph-node-stroke-color: transparent;
+--graph-node-missing-color: black;
+--graph-node-unvisited-color: black;
+--graph-node-visited-color: black;
+/* NODE GLOW */
+--graph-node-current-glow: transparent;
+--graph-node-tagged-glow: transparent;
+--graph-node-visited-glow: transparent;
+/* LINKS */
+--graph-link-color: grey;
+--graph-particles-color: grey;
+/* LABELS */
+--graph-text-color: brown;
+}
 
 /* === Body === */
 

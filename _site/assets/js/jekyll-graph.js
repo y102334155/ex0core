@@ -56,15 +56,15 @@ export default class JekyllGraph {
         //                       .links(data.links))
 
          .d3Force('charge',  d3.forceManyBody()
-                               .strength(Number('-300')))
+                               .strength(Number('-200')))
          // .d3Force('collide', d3.forceCollide())
          // .d3Force('center',  d3.forceCenter())
          .d3Force('forceX',  d3.forceX()
-                               .strength(Number('0.1'))
-                               .x(Number('0.75')))
+                               .strength(Number('0.2'))
+                               .x(Number('0.1')))
          .d3Force('forceY', d3.forceY()
-                              .strength(Number('0.1'))
-                              .y(Number('0.9')))
+                              .strength(Number('0.2'))
+                              .y(Number('0.1')))
 
         // hover
         .autoPauseRedraw(false) // keep redrawing after engine has stopped
