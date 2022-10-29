@@ -1,13 +1,33 @@
 ---
 layout: page
-title: Article Index
+title: 3D Navigation Graph
 date:
 type:
 ---
 
-<div style="background-color: white" id="jekyll-graph"></div>
+<div id="3d-graph"></div>
+<script src="//unpkg.com/3d-force-graph"></script>
 
-<script type="module" src="/assets/js/graph.js"></script>
+<!-- DEFAULT 3D GRAPH (NAMELESS NODES) -->
+<!-- <script>
+  const Graph = ForceGraph3D()
+    (document.getElementById('3d-graph'))
+      .jsonUrl('/assets/graph-net-web.json');
+</script> -->
+
+
+<script src="//unpkg.com/three"></script>
+<script src="//unpkg.com/three-spritetext"></script>
+<script src="/assets/js/3d-graph.js"></script>
+
+
+
+
+
+
+
+
+
 
 <script type="text/javascript">
   // Hack: Replace page-link with "Page Title"

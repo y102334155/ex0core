@@ -148,7 +148,7 @@ graph:
       attrs: false
       links: false
     force:
-      charge: -200
+      charge: -400
       strength_x: 0.2
       x_val: 0.1
       strength_y: 0.2

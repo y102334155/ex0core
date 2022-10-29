@@ -5,7 +5,4 @@ class GraphNav extends JekyllGraph {
     this.drawNetWeb();
   }
 }
-var graph = new GraphNav();
-(() => {
-  graph.drawNetWeb();
-});
+var graph = new GraphNav;

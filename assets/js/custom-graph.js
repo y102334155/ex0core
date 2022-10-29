@@ -2,7 +2,7 @@
 
 export default class JekyllGraph {
 
-  constructor() {
+  ddd() {
     this.graphDiv = document.getElementById('jekyll-graph');
   }
 
@@ -56,7 +56,7 @@ export default class JekyllGraph {
         //                       .links(data.links))
 
          .d3Force('charge',  d3.forceManyBody()
-                               .strength(Number('-400')))
+                               .strength(Number('-200')))
          // .d3Force('collide', d3.forceCollide())
          // .d3Force('center',  d3.forceCenter())
          .d3Force('forceX',  d3.forceX()
@@ -364,3 +364,23 @@ export default class JekyllGraph {
     }
   }
 }
+
+class GraphNav extends JekyllGraph {
+  constructor() {
+    super();
+    this.drawNetWeb();
+  }
+}
+var graph = new GraphNav;
+var minRadius = 15;
+(() => {
+  graph.drawNetWeb();
+  node.enter()
+        .append("svg:circle")
+        .attr("class", function(d){ return "circle type"+d.type})
+        .attr("r", function(d) { return d.radius })//here the svg:circle radius is set based on the data vaules, do your magic HERE
+});
+
+
+
+
