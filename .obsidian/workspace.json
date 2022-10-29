@@ -14,8 +14,17 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "3aa1ea3782e80e19",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,11 +146,9 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "68bdb0177a6320a6",
+  "active": "3aa1ea3782e80e19",
   "lastOpenFiles": [
+    "_daily/2022-10-29.md",
     "_daily/2022-10-27.md",
     "_articles/table test.md",
     "_daily/2022-10-25.md",
@@ -150,7 +157,6 @@
     "assets/imgs/bg-yotsuba.gif",
     "_articles/Configure Exocore for Personal Use.md",
     "_daily/2022-10-23.md",
-    "_daily/2022-05-11.md",
-    "_daily/2022-10-22.md"
+    "_daily/2022-05-11.md"
   ]
 }
