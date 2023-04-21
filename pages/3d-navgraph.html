@@ -6,16 +6,13 @@ type:
 ---
 
 <div id="3d-graph"></div>
+<div style="position: absolute; top: 5px; right: 5px; z-index: 10;">
+  <button id="rotationToggle" style="margin: 8px; height: 25px; width: 150px;">
+    Rotate
+  </button>
+</div>
+
 <script src="//unpkg.com/3d-force-graph"></script>
-
-<!-- DEFAULT 3D GRAPH (NAMELESS NODES) -->
-<!-- <script>
-  const Graph = ForceGraph3D()
-    (document.getElementById('3d-graph'))
-      .jsonUrl('/assets/graph-net-web.json');
-</script> -->
-
-
 <script src="//unpkg.com/three"></script>
 <script src="//unpkg.com/three-spritetext"></script>
 <script src="/assets/js/3d-graph.js"></script>
