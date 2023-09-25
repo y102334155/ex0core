@@ -11,12 +11,30 @@
             "id": "19d3cb28a924b214",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_daily/2023-09-25.md",
+                "mode": "source",
+                "source": true
+              }
             }
           },
           {
-            "id": "3aef01271f7235f3",
+            "id": "354cbad3dc7ddf20",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "afee169cda8eb3ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bf69a2cd7d68667c",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -97,6 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_daily/2023-09-25.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_daily/2023-09-25.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +154,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_daily/2023-09-25.md"
+              }
             }
           },
           {
@@ -166,6 +188,7 @@
   },
   "active": "e509f202f4abd033",
   "lastOpenFiles": [
+    "_daily/2023-09-25.md",
     "_site/assets/imgs/pfp.png",
     "_site/assets/imgs/card.png",
     "_site/assets/imgs/bg-yotsuba.gif",
@@ -176,8 +199,6 @@
     "_site/assets/imgs/icons/pp,840x830-pad,1000x1000,f8f8f8.png",
     "_site/assets/imgs/icons/journal.png",
     "_site/assets/imgs/icons/icon3.gif",
-    "_site/assets/imgs/icons/icon1.gif",
-    "_daily/2023-09-25.md",
     "_articles/Configure Exocore for Personal Use.md",
     "_daily/2022-10-29.md",
     "_daily/2022-10-27.md",
