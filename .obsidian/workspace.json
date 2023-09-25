@@ -11,17 +11,9 @@
             "id": "68bdb0177a6320a6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "3aa1ea3782e80e19",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
-                "file": "_daily/2023-09-25.md",
+                "file": "_articles/Configure Exocore for Personal Use.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "/exocore/data/user.yml",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_articles/Configure Exocore for Personal Use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_articles/Configure Exocore for Personal Use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_articles/Configure Exocore for Personal Use.md"
+              }
             }
           },
           {
@@ -168,7 +164,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "68bdb0177a6320a6",
+  "active": "e509f202f4abd033",
   "lastOpenFiles": [
     "_daily/2023-09-25.md",
     "_daily/2022-10-29.md",
