@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "9a6d7b65dfe24a65",
+        "id": "b9e27aff89c697b9",
         "type": "tabs",
         "children": [
           {
-            "id": "68bdb0177a6320a6",
+            "id": "19d3cb28a924b214",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "_articles/Configure Exocore for Personal Use.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_articles/Configure Exocore for Personal Use.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_articles/Configure Exocore for Personal Use.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "_articles/Configure Exocore for Personal Use.md"
-              }
+              "state": {}
             }
           },
           {
@@ -166,15 +158,25 @@
   },
   "active": "e509f202f4abd033",
   "lastOpenFiles": [
+    "_site/assets/imgs/pfp.png",
+    "_site/assets/imgs/card.png",
+    "_site/assets/imgs/bg-yotsuba.gif",
+    "_site/assets/imgs/bg-vellum.jpg",
+    "_site/assets/imgs/bg-article-vellum.jpg",
+    "_site/assets/imgs/icons/Windows-95.png",
+    "_site/assets/imgs/icons/wiki.png",
+    "_site/assets/imgs/icons/pp,840x830-pad,1000x1000,f8f8f8.png",
+    "_site/assets/imgs/icons/journal.png",
+    "_site/assets/imgs/icons/icon3.gif",
+    "_site/assets/imgs/icons/icon1.gif",
     "_daily/2023-09-25.md",
+    "_articles/Configure Exocore for Personal Use.md",
     "_daily/2022-10-29.md",
     "_daily/2022-10-27.md",
     "_articles/table test.md",
     "_daily/2022-10-25.md",
     "_articles/Exocore Installation Instructions.md",
     "_articles/Writing with Exocore Syntax.md",
-    "assets/imgs/bg-yotsuba.gif",
-    "_articles/Configure Exocore for Personal Use.md",
     "_daily/2022-10-23.md",
     "_daily/2022-05-11.md"
   ]
